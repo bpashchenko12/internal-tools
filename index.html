@@ -48,15 +48,16 @@
       var tools = [];
 
       function accent(t) { return ACCENTS.indexOf(t.accent) > -1 ? t.accent : 'green'; }
+      function href(t) { return t.url ? t.url : X.url(t.path); }
       function appIcon(t) {
         var badge = t.status === 'beta' ? '<span class="app-badge">Beta</span>' : t.status === 'prototype' ? '<span class="app-badge blue">Prototype</span>' : '';
-        return '<a class="app" href="' + esc(X.url(t.path)) + '" title="' + esc(t.name + ' - ' + t.description) + '">' +
+        return '<a class="app" href="' + esc(href(t)) + '" title="' + esc(t.name + ' - ' + t.description) + '">' +
           '<span class="app-ic ' + accent(t) + '">' + X.icon(t.icon) + badge + '</span><span class="app-name">' + esc(t.name) + '</span></a>';
       }
       function row(t) {
         var s = STATUS[t.status] || STATUS.prototype;
         var tile = { green: '', blue: 'blue', amber: 'amber', purple: 'purple', red: 'red', dark: '' }[accent(t)];
-        return '<a class="card dir-row" href="' + esc(X.url(t.path)) + '"><span class="icon-tile ' + tile + '">' + X.icon(t.icon) + '</span>' +
+        return '<a class="card dir-row" href="' + esc(href(t)) + '"><span class="icon-tile ' + tile + '">' + X.icon(t.icon) + '</span>' +
           '<div><h3>' + esc(t.name) + '</h3><p>' + esc(t.description) + '</p></div>' +
           '<div class="meta"><span class="tag ' + s[1] + '">' + s[0] + '</span><small>' + esc(t.category) + ' · ' + esc(t.owner) + '</small></div></a>';
       }

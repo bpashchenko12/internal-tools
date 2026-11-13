@@ -59,6 +59,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hub-bar .right { display: flex; align-items: center; gap: 8px; margin-left: auto; }
 .hub-bar .lnk { font-size: var(--fs-s); font-weight: 500; padding: 8px 12px; border-radius: 10px; color: #d6dae0; background: none; border: 0; }
 .hub-bar .lnk:hover { background: rgba(255, 255, 255, .1); color: #fff; }
+.hub-bar .lnk, .hub-bar .crumb { white-space: nowrap; }
+@media (max-width: 560px) {
+  .hub-bar .in { gap: 10px; padding: 0 14px; }
+  .hub-bar .sub { display: none; }
+  .hub-bar .lnk { padding: 8px 8px; }
+}
 
 /* ---------- Buttons ---------- */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1.5px solid transparent; border-radius: 10px; padding: 10px 20px; font-weight: 600; font-size: var(--fs-m); line-height: 1.2; transition: transform .12s, background .15s, box-shadow .15s, border-color .15s; white-space: nowrap; }

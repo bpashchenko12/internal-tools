@@ -1,0 +1,2556 @@
+{
+ "collected": "2026-11-13",
+ "lastUpdated": "2026-10-28",
+ "domain": "xmtrading.com",
+ "country": "JP",
+ "webSource": "all devices",
+ "months": [
+  "2026-08",
+  "2026-09",
+  "2026-10"
+ ],
+ "trend": [
+  {
+   "keywords": 787,
+   "clicks": 204666,
+   "nonBrandedClicks": 19582,
+   "nonBrandedShare": 9.6,
+   "top3": 73,
+   "top10": 184,
+   "month": "2026-08"
+  },
+  {
+   "keywords": 597,
+   "clicks": 164614,
+   "nonBrandedClicks": 11477,
+   "nonBrandedShare": 7.0,
+   "top3": 48,
+   "top10": 131,
+   "month": "2026-09"
+  },
+  {
+   "keywords": 667,
+   "clicks": 215299,
+   "nonBrandedClicks": 22842,
+   "nonBrandedShare": 10.6,
+   "top3": 49,
+   "top10": 127,
+   "month": "2026-10"
+  }
+ ],
+ "landingPages": 268,
+ "top10PagesShare": 88,
+ "keywords": [
+  {
+   "keyword": "xm",
+   "clicks": 89012,
+   "share": 46.25,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 22,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    82188,
+    77817,
+    89012
+   ]
+  },
+  {
+   "keyword": "xmtrading",
+   "clicks": 29030,
+   "share": 15.08,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 16,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    39703,
+    27811,
+    29030
+   ]
+  },
+  {
+   "keyword": "xmtrading ログイン",
+   "clicks": 16402,
+   "share": 8.52,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 13,
+   "topUrl": "my.xmtrading.com/jp/member/login",
+   "branded": true,
+   "history": [
+    6364,
+    8471,
+    16402
+   ]
+  },
+  {
+   "keyword": "xm ログイン",
+   "clicks": 10211,
+   "share": 5.31,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 10,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    28098,
+    14619,
+    10211
+   ]
+  },
+  {
+   "keyword": "xm trading",
+   "clicks": 6306,
+   "share": 3.28,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 43,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    4156,
+    3742,
+    6306
+   ]
+  },
+  {
+   "keyword": "xmログイン",
+   "clicks": 3296,
+   "share": 1.71,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 10,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    999,
+    1698,
+    3296
+   ]
+  },
+  {
+   "keyword": "ｘｍ",
+   "clicks": 3130,
+   "share": 1.63,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 22,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    3883,
+    3677,
+    3130
+   ]
+  },
+  {
+   "keyword": "xmトレーディング",
+   "clicks": 2473,
+   "share": 1.29,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": 43,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    5321,
+    2945,
+    2473
+   ]
+  },
+  {
+   "keyword": "ゴールド チャート",
+   "clicks": 1749,
+   "share": 7.66,
+   "position": 7,
+   "intent": "Informational",
+   "competition": 4,
+   "topUrl": "fxplus.xmtrading.com/market-rate/GOLD24-7",
+   "branded": false,
+   "history": [
+    0,
+    319,
+    1749
+   ]
+  },
+  {
+   "keyword": "xm トレーディング ログイン できない",
+   "clicks": 1198,
+   "share": 0.62,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/help-centre/tech-support",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    1198
+   ]
+  },
+  {
+   "keyword": "xm アフィリエイト ログイン",
+   "clicks": 1080,
+   "share": 0.56,
+   "position": 1,
+   "intent": "Informational",
+   "competition": 2,
+   "topUrl": "mypartners.xmtrading.com",
+   "branded": true,
+   "history": [
+    811,
+    1,
+    1080
+   ]
+  },
+  {
+   "keyword": "トレーディングビュー",
+   "clicks": 992,
+   "share": 4.34,
+   "position": null,
+   "intent": "Navigational",
+   "competition": 8,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=217483",
+   "branded": false,
+   "history": [
+    861,
+    743,
+    992
+   ]
+  },
+  {
+   "keyword": "xm mt5 ダウンロード",
+   "clicks": 877,
+   "share": 0.46,
+   "position": 1,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": true,
+   "history": [
+    378,
+    20,
+    877
+   ]
+  },
+  {
+   "keyword": "xmトレーディング アカウント 削除",
+   "clicks": 798,
+   "share": 0.41,
+   "position": 2,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026040701.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    798
+   ]
+  },
+  {
+   "keyword": "xm　解約",
+   "clicks": 774,
+   "share": 3.39,
+   "position": 2,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026040701.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    774
+   ]
+  },
+  {
+   "keyword": "xm mt4",
+   "clicks": 680,
+   "share": 0.35,
+   "position": null,
+   "intent": null,
+   "competition": 27,
+   "topUrl": "xmtrading.com/jp/mt4",
+   "branded": true,
+   "history": [
+    744,
+    206,
+    680
+   ]
+  },
+  {
+   "keyword": "xm mt4 ダウンロード",
+   "clicks": 678,
+   "share": 0.35,
+   "position": 1,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt4",
+   "branded": true,
+   "history": [
+    671,
+    352,
+    678
+   ]
+  },
+  {
+   "keyword": "xm mt5",
+   "clicks": 676,
+   "share": 0.35,
+   "position": 1,
+   "intent": "Informational",
+   "competition": 25,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": true,
+   "history": [
+    510,
+    135,
+    676
+   ]
+  },
+  {
+   "keyword": "xm　ログイン",
+   "clicks": 661,
+   "share": 0.34,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    50,
+    0,
+    661
+   ]
+  },
+  {
+   "keyword": "xmtrading 会員ページ",
+   "clicks": 661,
+   "share": 0.34,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp/member/login",
+   "branded": true,
+   "history": [
+    79,
+    11,
+    661
+   ]
+  },
+  {
+   "keyword": "xm metatraderの口座の解約",
+   "clicks": 641,
+   "share": 0.33,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/close_account_sp.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    641
+   ]
+  },
+  {
+   "keyword": "ゴールドチャート",
+   "clicks": 628,
+   "share": 2.75,
+   "position": 6,
+   "intent": "Informational",
+   "competition": 4,
+   "topUrl": "fxplus.xmtrading.com/market-rate/GOLD24-7",
+   "branded": false,
+   "history": [
+    0,
+    28,
+    628
+   ]
+  },
+  {
+   "keyword": "xm fx",
+   "clicks": 612,
+   "share": 0.32,
+   "position": 1,
+   "intent": "Navigational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    333,
+    114,
+    612
+   ]
+  },
+  {
+   "keyword": "xm trading ホームページ",
+   "clicks": 602,
+   "share": 0.31,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    602
+   ]
+  },
+  {
+   "keyword": "xm ログイン　 xmtradingポータル",
+   "clicks": 602,
+   "share": 0.31,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    602
+   ]
+  },
+  {
+   "keyword": "xm ｍｔmt4 取引方法",
+   "clicks": 580,
+   "share": 0.3,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/oneclick-marketorder.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    580
+   ]
+  },
+  {
+   "keyword": "xm証券 デモ口座",
+   "clicks": 580,
+   "share": 2.54,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/demoaccount.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    580
+   ]
+  },
+  {
+   "keyword": "xm証券 新規デモ口座",
+   "clicks": 580,
+   "share": 2.54,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/demoaccount.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    580
+   ]
+  },
+  {
+   "keyword": "xmｍインストール方法",
+   "clicks": 580,
+   "share": 2.54,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/download.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    580
+   ]
+  },
+  {
+   "keyword": "xm 口座パスワード 確認",
+   "clicks": 572,
+   "share": 0.3,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp/forgot/password",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    572
+   ]
+  },
+  {
+   "keyword": "xm 取引口座パスワード 変更方法",
+   "clicks": 518,
+   "share": 0.27,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/password_change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    518
+   ]
+  },
+  {
+   "keyword": "ｘｍトレード スプレッド",
+   "clicks": 495,
+   "share": 2.17,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/trading-fees",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    495
+   ]
+  },
+  {
+   "keyword": "xm 入金方法",
+   "clicks": 478,
+   "share": 0.25,
+   "position": 3,
+   "intent": "Informational",
+   "competition": 6,
+   "topUrl": "xmtrading.com/jp/guides/getting-started/how-to-fund-account",
+   "branded": true,
+   "history": [
+    12,
+    2,
+    478
+   ]
+  },
+  {
+   "keyword": "xm trading セキュリティ",
+   "clicks": 475,
+   "share": 0.25,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/news/n2026102301.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    475
+   ]
+  },
+  {
+   "keyword": "xm お問い合わせ",
+   "clicks": 451,
+   "share": 0.23,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/contact",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    451
+   ]
+  },
+  {
+   "keyword": "xmtrading vip support",
+   "clicks": 423,
+   "share": 0.22,
+   "position": 2,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/contact",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    423
+   ]
+  },
+  {
+   "keyword": "xmtrading 仮想通貨 入金時 レート　記録",
+   "clicks": 422,
+   "share": 0.22,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/procedure_history.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    422
+   ]
+  },
+  {
+   "keyword": "mt5 ウェブ　xm",
+   "clicks": 420,
+   "share": 1.84,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "mt5.xmtrading.com",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    420
+   ]
+  },
+  {
+   "keyword": "mt4 スマホ xmtrading 通貨ペア増やしたい",
+   "clicks": 415,
+   "share": 0.22,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/add-symbol-sp.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    415
+   ]
+  },
+  {
+   "keyword": "vps xm mt4",
+   "clicks": 413,
+   "share": 0.21,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/vps",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    413
+   ]
+  },
+  {
+   "keyword": "xm trading login",
+   "clicks": 407,
+   "share": 0.21,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    407
+   ]
+  },
+  {
+   "keyword": "xm年間 収支",
+   "clicks": 405,
+   "share": 1.77,
+   "position": 8,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/save-print-report.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    405
+   ]
+  },
+  {
+   "keyword": "mt5 ヒストリカル データ xm",
+   "clicks": 399,
+   "share": 0.21,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/import-historicaldata.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    399
+   ]
+  },
+  {
+   "keyword": "ｘｍトレーディング　アカウント　削除",
+   "clicks": 399,
+   "share": 0.21,
+   "position": 2,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026040701.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    399
+   ]
+  },
+  {
+   "keyword": "xm 極み口座",
+   "clicks": 385,
+   "share": 0.2,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/account-types",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    385
+   ]
+  },
+  {
+   "keyword": "楽天証券",
+   "clicks": 372,
+   "share": 1.63,
+   "position": null,
+   "intent": "Navigational",
+   "competition": 13,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=217483",
+   "branded": false,
+   "history": [
+    0,
+    29,
+    372
+   ]
+  },
+  {
+   "keyword": "xm 口座 パスワード変更",
+   "clicks": 368,
+   "share": 0.19,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-app/password-change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    368
+   ]
+  },
+  {
+   "keyword": "xm tradung",
+   "clicks": 362,
+   "share": 0.19,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    362
+   ]
+  },
+  {
+   "keyword": "xm trading　メールアドレス変更",
+   "clicks": 361,
+   "share": 0.19,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/mailaddress_change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    361
+   ]
+  },
+  {
+   "keyword": "xmt",
+   "clicks": 356,
+   "share": 0.19,
+   "position": 1,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    11,
+    0,
+    356
+   ]
+  },
+  {
+   "keyword": "xm 取引パスワード",
+   "clicks": 349,
+   "share": 0.18,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/password_change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    349
+   ]
+  },
+  {
+   "keyword": "xm 証拠金維持率 計算",
+   "clicks": 341,
+   "share": 0.18,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/calculators/all-in-one",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    341
+   ]
+  },
+  {
+   "keyword": "xm ゴールド ロット計算",
+   "clicks": 331,
+   "share": 0.17,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/calculators/all-in-one",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    331
+   ]
+  },
+  {
+   "keyword": "xm証券には、mt４以外の取引プラットホームがあるか",
+   "clicks": 321,
+   "share": 1.4,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/platforms",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    321
+   ]
+  },
+  {
+   "keyword": "郵便局の休日",
+   "clicks": 312,
+   "share": 1.37,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/contact?countryConfiguration=xmtd&gid=244789",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    312
+   ]
+  },
+  {
+   "keyword": "xm キャンペーン",
+   "clicks": 308,
+   "share": 0.16,
+   "position": 1,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/promotions",
+   "branded": true,
+   "history": [
+    136,
+    0,
+    308
+   ]
+  },
+  {
+   "keyword": "xmのmetatrader 4（mt4）/ metatrader 5（mt5）を起動",
+   "clicks": 305,
+   "share": 1.34,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/login.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    305
+   ]
+  },
+  {
+   "keyword": "xmwebtrader",
+   "clicks": 300,
+   "share": 1.31,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026061602.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    300
+   ]
+  },
+  {
+   "keyword": "xm 年間損益確認",
+   "clicks": 295,
+   "share": 0.15,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/tradinghistory.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    295
+   ]
+  },
+  {
+   "keyword": "xm デモ口座開設で収入資産など詳しく効かれる理由",
+   "clicks": 290,
+   "share": 0.15,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-app/demo-account.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    290
+   ]
+  },
+  {
+   "keyword": "大 陽線 アラート",
+   "clicks": 290,
+   "share": 1.27,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/glossary/big-bull-candle.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    290
+   ]
+  },
+  {
+   "keyword": "xm 会員サイトログインパスワード 変更",
+   "clicks": 279,
+   "share": 0.15,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/profilepassword_change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    279
+   ]
+  },
+  {
+   "keyword": "xmデモ口座ログイン",
+   "clicks": 277,
+   "share": 1.21,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/who-we-are?countryConfiguration=xmtd&gid=217485",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    277
+   ]
+  },
+  {
+   "keyword": "xm　pc版mt4 チャート拡大するには",
+   "clicks": 271,
+   "share": 1.19,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/chart_zoom.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    271
+   ]
+  },
+  {
+   "keyword": "fxのxmにログインできない",
+   "clicks": 270,
+   "share": 1.18,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/cannot-login.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    270
+   ]
+  },
+  {
+   "keyword": "xm 出金",
+   "clicks": 268,
+   "share": 0.14,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2025111201.html",
+   "branded": true,
+   "history": [
+    39,
+    0,
+    268
+   ]
+  },
+  {
+   "keyword": "sbi新生銀行 初回ログイン",
+   "clicks": 265,
+   "share": 1.16,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=217483",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    265
+   ]
+  },
+  {
+   "keyword": "sbi新生 ネットバンキング ログイン 画面",
+   "clicks": 265,
+   "share": 1.16,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=217483",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    265
+   ]
+  },
+  {
+   "keyword": "xmtrading　mt5　ログイン　セキュリティ　パスキー",
+   "clicks": 262,
+   "share": 0.14,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/guides/platforms-apps/how-to-log-in-mt5",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    262
+   ]
+  },
+  {
+   "keyword": "ｆｘ xm",
+   "clicks": 259,
+   "share": 0.13,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    259
+   ]
+  },
+  {
+   "keyword": "xmtrading アプリ",
+   "clicks": 258,
+   "share": 0.13,
+   "position": 1,
+   "intent": "Informational",
+   "competition": 48,
+   "topUrl": "xmtrading.com/jp/xmtd-traderpro-app",
+   "branded": true,
+   "history": [
+    0,
+    427,
+    258
+   ]
+  },
+  {
+   "keyword": "xm ib",
+   "clicks": 255,
+   "share": 0.13,
+   "position": 2,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "mypartners.xmtrading.com",
+   "branded": true,
+   "history": [
+    100,
+    302,
+    255
+   ]
+  },
+  {
+   "keyword": "auカブコム証券 ログイン",
+   "clicks": 254,
+   "share": 1.11,
+   "position": null,
+   "intent": "Navigational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=214179",
+   "branded": false,
+   "history": [
+    158,
+    121,
+    254
+   ]
+  },
+  {
+   "keyword": "xmデモトレード",
+   "clicks": 253,
+   "share": 1.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    253
+   ]
+  },
+  {
+   "keyword": "xm 証拠金 計算機",
+   "clicks": 252,
+   "share": 0.13,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/calculators/all-in-one",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    252
+   ]
+  },
+  {
+   "keyword": "mt5xm",
+   "clicks": 247,
+   "share": 1.08,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    247
+   ]
+  },
+  {
+   "keyword": "xm 秋のボーナス",
+   "clicks": 245,
+   "share": 0.13,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/promotions/autumn-bonus-2026",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    245
+   ]
+  },
+  {
+   "keyword": "謝罪 深い",
+   "clicks": 242,
+   "share": 1.06,
+   "position": null,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026040701.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    242
+   ]
+  },
+  {
+   "keyword": "fx xm",
+   "clicks": 239,
+   "share": 0.12,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    239
+   ]
+  },
+  {
+   "keyword": "xm 日経２２５ 開始時間",
+   "clicks": 234,
+   "share": 0.12,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/media/2026041501.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    234
+   ]
+  },
+  {
+   "keyword": "mt4 ダウンロード pc",
+   "clicks": 231,
+   "share": 1.01,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt4",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    231
+   ]
+  },
+  {
+   "keyword": "xm login",
+   "clicks": 229,
+   "share": 0.12,
+   "position": 1,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    424,
+    7,
+    229
+   ]
+  },
+  {
+   "keyword": "xmtrading mt4",
+   "clicks": 229,
+   "share": 0.12,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt4",
+   "branded": true,
+   "history": [
+    54,
+    408,
+    229
+   ]
+  },
+  {
+   "keyword": "xm 口座開設ボーナス",
+   "clicks": 226,
+   "share": 0.12,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/promotions",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    226
+   ]
+  },
+  {
+   "keyword": "xm デモ口座",
+   "clicks": 225,
+   "share": 0.12,
+   "position": 1,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-app/demo-account.html",
+   "branded": true,
+   "history": [
+    169,
+    43,
+    225
+   ]
+  },
+  {
+   "keyword": "xmtrading メールアドレス変更",
+   "clicks": 224,
+   "share": 0.12,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-member/mailaddress_change.html",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    224
+   ]
+  },
+  {
+   "keyword": "xm公式サイト",
+   "clicks": 223,
+   "share": 0.98,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": false,
+   "history": [
+    7,
+    0,
+    223
+   ]
+  },
+  {
+   "keyword": "ｘｍｔらぢんｇ",
+   "clicks": 215,
+   "share": 0.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    215
+   ]
+  },
+  {
+   "keyword": "xmtrading デモ口座",
+   "clicks": 214,
+   "share": 0.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/register/profile-account",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    214
+   ]
+  },
+  {
+   "keyword": "xmtrading 会員ログインページ",
+   "clicks": 206,
+   "share": 0.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp/member/login",
+   "branded": true,
+   "history": [
+    9,
+    274,
+    206
+   ]
+  },
+  {
+   "keyword": "xm ドルインデックス",
+   "clicks": 203,
+   "share": 0.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/market-rate/USD_FX_Index",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    203
+   ]
+  },
+  {
+   "keyword": "mt5 pc ワン クリック注文アプリ",
+   "clicks": 203,
+   "share": 0.89,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/userguide-mt/oneclick-trading.html",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    203
+   ]
+  },
+  {
+   "keyword": "xm trading ログイン",
+   "clicks": 202,
+   "share": 0.11,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "my.xmtrading.com/jp/member/login",
+   "branded": true,
+   "history": [
+    172,
+    0,
+    202
+   ]
+  },
+  {
+   "keyword": "xm trading mt4",
+   "clicks": 200,
+   "share": 0.1,
+   "position": null,
+   "intent": null,
+   "competition": 30,
+   "topUrl": "xmtrading.com/jp/platforms",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    200
+   ]
+  },
+  {
+   "keyword": "mt5 xm ログイン",
+   "clicks": 196,
+   "share": 0.1,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/guides/platforms-apps/how-to-log-in-mt5",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    196
+   ]
+  },
+  {
+   "keyword": "fxデモトレード無料パソコン",
+   "clicks": 192,
+   "share": 0.84,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/landing/gold-deposit-bonus?countryConfiguration=xmtd&gid=217483",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    192
+   ]
+  },
+  {
+   "keyword": "mt５",
+   "clicks": 190,
+   "share": 0.83,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    190
+   ]
+  },
+  {
+   "keyword": "mt5ダウンロード xmtrading",
+   "clicks": 183,
+   "share": 0.09,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": true,
+   "history": [
+    0,
+    0,
+    183
+   ]
+  },
+  {
+   "keyword": "mt5 ログイン",
+   "clicks": 183,
+   "share": 0.8,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/guides/platforms-apps/how-to-log-in-mt5",
+   "branded": false,
+   "history": [
+    0,
+    91,
+    183
+   ]
+  },
+  {
+   "keyword": "xm　公式サイト",
+   "clicks": 183,
+   "share": 0.8,
+   "position": null,
+   "intent": null,
+   "competition": null,
+   "topUrl": "xmtrading.com/jp",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    183
+   ]
+  },
+  {
+   "keyword": "btc usd",
+   "clicks": 168,
+   "share": 0.73,
+   "position": 11,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "fxplus.xmtrading.com/market-rate/BTCUSD",
+   "branded": false,
+   "history": [
+    0,
+    0,
+    168
+   ]
+  },
+  {
+   "keyword": "単元未満株",
+   "clicks": 88,
+   "share": 0.38,
+   "position": 5,
+   "intent": "Informational",
+   "competition": 12,
+   "topUrl": "fxplus.xmtrading.com/glossary/odd-share.html",
+   "branded": false,
+   "history": [
+    0,
+    2,
+    88
+   ]
+  },
+  {
+   "keyword": "btcusd",
+   "clicks": 83,
+   "share": 0.36,
+   "position": 4,
+   "intent": "Informational",
+   "competition": 1,
+   "topUrl": "fxplus.xmtrading.com/market-rate/BTCUSD",
+   "branded": false,
+   "history": [
+    21,
+    0,
+    83
+   ]
+  },
+  {
+   "keyword": "mt5",
+   "clicks": 76,
+   "share": 0.33,
+   "position": 8,
+   "intent": "Navigational",
+   "competition": 46,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": false,
+   "history": [
+    222,
+    371,
+    76
+   ]
+  },
+  {
+   "keyword": "mt4",
+   "clicks": 66,
+   "share": 0.29,
+   "position": 14,
+   "intent": "Navigational",
+   "competition": 40,
+   "topUrl": "xmtrading.com/jp/mt4",
+   "branded": false,
+   "history": [
+    90,
+    71,
+    66
+   ]
+  },
+  {
+   "keyword": "mt5 ダウンロード",
+   "clicks": 56,
+   "share": 0.25,
+   "position": 5,
+   "intent": "Informational",
+   "competition": null,
+   "topUrl": "xmtrading.com/jp/mt5",
+   "branded": false,
+   "history": [
+    254,
+    30,
+    56
+   ]
+  },
+  {
+   "keyword": "bt cusd",
+   "clicks": 23,
+   "share": 0.1,
+   "position": 4,
+   "intent": "Informational",
+   "competition": 1,
+   "topUrl": "fxplus.xmtrading.com/market-rate/BTCUSD",
+   "branded": false,
+   "history": [
+    16,
+    9,
+    23
+   ]
+  }
+ ],
+ "watch": {
+  "xm": {
+   "volume": 114913,
+   "difficulty": 73,
+   "clicks": 89012,
+   "position": 1,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 82188,
+     "position": 1
+    },
+    {
+     "month": "2026-09",
+     "clicks": 77817,
+     "position": 1
+    },
+    {
+     "month": "2026-10",
+     "clicks": 89012,
+     "position": 1
+    }
+   ],
+   "competitors": {
+    "kaigaifx.com": {
+     "clicks": 545,
+     "position": 6
+    },
+    "fxsignup.com": {
+     "clicks": 13015,
+     "position": 2
+    }
+   }
+  },
+  "xmtrading": {
+   "volume": 51467,
+   "difficulty": 34,
+   "clicks": 29030,
+   "position": 1,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 39703,
+     "position": 1
+    },
+    {
+     "month": "2026-09",
+     "clicks": 27811,
+     "position": 1
+    },
+    {
+     "month": "2026-10",
+     "clicks": 29030,
+     "position": 1
+    }
+   ],
+   "competitors": {
+    "kaigaifx.com": {
+     "clicks": 209,
+     "position": 8
+    },
+    "fxsignup.com": {
+     "clicks": 2962,
+     "position": 2
+    }
+   }
+  },
+  "xm ログイン": {
+   "volume": 14951,
+   "difficulty": 39,
+   "clicks": 10211,
+   "position": 1,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 28098,
+     "position": 1
+    },
+    {
+     "month": "2026-09",
+     "clicks": 14619,
+     "position": 1
+    },
+    {
+     "month": "2026-10",
+     "clicks": 10211,
+     "position": 1
+    }
+   ],
+   "competitors": {
+    "fxsignup.com": {
+     "clicks": 4298,
+     "position": 1
+    }
+   }
+  },
+  "xm mt4 ダウンロード": {
+   "volume": 724,
+   "difficulty": 35,
+   "clicks": 678,
+   "position": 1,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 671,
+     "position": 1
+    },
+    {
+     "month": "2026-09",
+     "clicks": 352,
+     "position": 1
+    },
+    {
+     "month": "2026-10",
+     "clicks": 678,
+     "position": 1
+    }
+   ],
+   "competitors": {
+    "fxsignup.com": {
+     "clicks": 123,
+     "position": 2
+    }
+   }
+  },
+  "xm リニューアル": {
+   "volume": null,
+   "difficulty": null,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {}
+  },
+  "xmtrading tradingview": {
+   "volume": null,
+   "difficulty": null,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {}
+  },
+  "海外fx おすすめ": {
+   "volume": 3323,
+   "difficulty": 25,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "kaigaifx.com": {
+     "clicks": 9,
+     "position": 8
+    },
+    "fxsignup.com": {
+     "clicks": 200,
+     "position": 3
+    }
+   }
+  },
+  "トレーディングビュー": {
+   "volume": 91088,
+   "difficulty": 52,
+   "clicks": 992,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 861,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": 743,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": 992,
+     "position": null
+    }
+   ],
+   "competitors": {}
+  },
+  "日経225": {
+   "volume": 115980,
+   "difficulty": 47,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": 606,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "rakuten-sec.co.jp": {
+     "clicks": 636,
+     "position": 10
+    }
+   }
+  },
+  "日経平均先物": {
+   "volume": 738971,
+   "difficulty": 51,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "monex.co.jp": {
+     "clicks": 7652,
+     "position": 5
+    },
+    "rakuten-sec.co.jp": {
+     "clicks": 11779,
+     "position": 5
+    }
+   }
+  },
+  "米ドル": {
+   "volume": 186750,
+   "difficulty": 51,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "monex.co.jp": {
+     "clicks": 4367,
+     "position": 2
+    },
+    "rakuten-sec.co.jp": {
+     "clicks": 977,
+     "position": 10
+    }
+   }
+  },
+  "s&p 500": {
+   "volume": 1162138,
+   "difficulty": 69,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "monex.co.jp": {
+     "clicks": 1802,
+     "position": 3
+    },
+    "rakuten-sec.co.jp": {
+     "clicks": 13828,
+     "position": 4
+    }
+   }
+  },
+  "決算発表スケジュール": {
+   "volume": 11980,
+   "difficulty": 46,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {
+    "monex.co.jp": {
+     "clicks": 2670,
+     "position": 3
+    },
+    "rakuten-sec.co.jp": {
+     "clicks": 264,
+     "position": 7
+    }
+   }
+  },
+  "海外fx 出金 最新情報": {
+   "volume": null,
+   "difficulty": null,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {}
+  },
+  "exness trade app": {
+   "volume": null,
+   "difficulty": null,
+   "clicks": null,
+   "position": null,
+   "history": [
+    {
+     "month": "2026-08",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-09",
+     "clicks": null,
+     "position": null
+    },
+    {
+     "month": "2026-10",
+     "clicks": null,
+     "position": null
+    }
+   ],
+   "competitors": {}
+  }
+ },
+ "pages": [
+  {
+   "path": "xmtrading.com/jp",
+   "keywords": 35,
+   "clicks": 133503,
+   "topKeyword": "xm",
+   "share": 62.01
+  },
+  {
+   "path": "my.xmtrading.com/jp/member/login",
+   "keywords": 8,
+   "clicks": 17788,
+   "topKeyword": "xmtrading ログイン",
+   "share": 8.26
+  },
+  {
+   "path": "my.xmtrading.com/jp",
+   "keywords": 23,
+   "clicks": 16459,
+   "topKeyword": "xm ログイン",
+   "share": 7.64
+  },
+  {
+   "path": "xmtrading.com/jp/landing/gold-deposit-bonus",
+   "keywords": 88,
+   "clicks": 9417,
+   "topKeyword": "トレーディングビュー",
+   "share": 4.37
+  },
+  {
+   "path": "fxplus.xmtrading.com/market-rate/GOLD24-7",
+   "keywords": 3,
+   "clicks": 2464,
+   "topKeyword": "ゴールド チャート",
+   "share": 1.14
+  },
+  {
+   "path": "xmtrading.com/jp/mt5",
+   "keywords": 17,
+   "clicks": 2345,
+   "topKeyword": "xm mt5 ダウンロード",
+   "share": 1.09
+  },
+  {
+   "path": "xmtrading.com/jp/mt4",
+   "keywords": 14,
+   "clicks": 2275,
+   "topKeyword": "xm mt4",
+   "share": 1.06
+  },
+  {
+   "path": "fxplus.xmtrading.com/media/2026040701.html",
+   "keywords": 6,
+   "clicks": 2221,
+   "topKeyword": "xmトレーディング アカウント 削除",
+   "share": 1.03
+  },
+  {
+   "path": "xmtrading.com/jp/calculators/all-in-one",
+   "keywords": 17,
+   "clicks": 1537,
+   "topKeyword": "xm 証拠金維持率 計算",
+   "share": 0.71
+  },
+  {
+   "path": "mypartners.xmtrading.com",
+   "keywords": 4,
+   "clicks": 1458,
+   "topKeyword": "xm アフィリエイト ログイン",
+   "share": 0.68
+  },
+  {
+   "path": "xmtrading.com/jp/contact",
+   "keywords": 7,
+   "clicks": 1450,
+   "topKeyword": "xm お問い合わせ",
+   "share": 0.67
+  },
+  {
+   "path": "xmtrading.com/jp/help-centre/tech-support",
+   "keywords": 1,
+   "clicks": 1198,
+   "topKeyword": "xm トレーディング ログイン できない",
+   "share": 0.56
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-member/demoaccount.html",
+   "keywords": 3,
+   "clicks": 1160,
+   "topKeyword": "xm証券 デモ口座",
+   "share": 0.54
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-member/password_change.html",
+   "keywords": 2,
+   "clicks": 867,
+   "topKeyword": "xm 取引口座パスワード 変更方法",
+   "share": 0.4
+  },
+  {
+   "path": "xmtrading.com/jp/promotions",
+   "keywords": 7,
+   "clicks": 798,
+   "topKeyword": "xm キャンペーン",
+   "share": 0.37
+  },
+  {
+   "path": "xmtrading.com/jp/account-types",
+   "keywords": 5,
+   "clicks": 763,
+   "topKeyword": "xm 極み口座",
+   "share": 0.35
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/download.html",
+   "keywords": 2,
+   "clicks": 734,
+   "topKeyword": "xmｍインストール方法",
+   "share": 0.34
+  },
+  {
+   "path": "my.xmtrading.com/jp/forgot/password",
+   "keywords": 2,
+   "clicks": 656,
+   "topKeyword": "xm 口座パスワード 確認",
+   "share": 0.3
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/save-print-report.html",
+   "keywords": 6,
+   "clicks": 642,
+   "topKeyword": "xm年間 収支",
+   "share": 0.3
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-member/close_account_sp.html",
+   "keywords": 1,
+   "clicks": 641,
+   "topKeyword": "xm metatraderの口座の解約",
+   "share": 0.3
+  },
+  {
+   "path": "xmtrading.com/jp/guides/platforms-apps/how-to-log-in-mt5",
+   "keywords": 3,
+   "clicks": 641,
+   "topKeyword": "xmtrading　mt5　ログイン　セキュリティ　パスキー",
+   "share": 0.3
+  },
+  {
+   "path": "xmtrading.com/jp/trading-fees",
+   "keywords": 2,
+   "clicks": 636,
+   "topKeyword": "ｘｍトレード スプレッド",
+   "share": 0.3
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-member/mailaddress_change.html",
+   "keywords": 2,
+   "clicks": 585,
+   "topKeyword": "xm trading　メールアドレス変更",
+   "share": 0.27
+  },
+  {
+   "path": "fxplus.xmtrading.com/media/2025111201.html",
+   "keywords": 7,
+   "clicks": 583,
+   "topKeyword": "xm 出金",
+   "share": 0.27
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/oneclick-marketorder.html",
+   "keywords": 3,
+   "clicks": 580,
+   "topKeyword": "xm ｍｔmt4 取引方法",
+   "share": 0.27
+  },
+  {
+   "path": "xmtrading.com/jp/guides/getting-started/how-to-fund-account",
+   "keywords": 2,
+   "clicks": 569,
+   "topKeyword": "xm 入金方法",
+   "share": 0.26
+  },
+  {
+   "path": "xmtrading.com/jp/platforms",
+   "keywords": 2,
+   "clicks": 521,
+   "topKeyword": "xm証券には、mt４以外の取引プラットホームがあるか",
+   "share": 0.24
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-app/demo-account.html",
+   "keywords": 2,
+   "clicks": 515,
+   "topKeyword": "xm デモ口座開設で収入資産など詳しく効かれる理由",
+   "share": 0.24
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/add-symbol-sp.html",
+   "keywords": 4,
+   "clicks": 513,
+   "topKeyword": "mt4 スマホ xmtrading 通貨ペア増やしたい",
+   "share": 0.24
+  },
+  {
+   "path": "fxplus.xmtrading.com/news/n2026102301.html",
+   "keywords": 1,
+   "clicks": 475,
+   "topKeyword": "xm trading セキュリティ",
+   "share": 0.22
+  },
+  {
+   "path": "xmtrading.com/jp/vps",
+   "keywords": 4,
+   "clicks": 432,
+   "topKeyword": "vps xm mt4",
+   "share": 0.2
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-member/procedure_history.html",
+   "keywords": 1,
+   "clicks": 422,
+   "topKeyword": "xmtrading 仮想通貨 入金時 レート　記録",
+   "share": 0.2
+  },
+  {
+   "path": "mt5.xmtrading.com",
+   "keywords": 1,
+   "clicks": 420,
+   "topKeyword": "mt5 ウェブ　xm",
+   "share": 0.2
+  },
+  {
+   "path": "xmtrading.com/jp/promotions/autumn-bonus-2026",
+   "keywords": 2,
+   "clicks": 415,
+   "topKeyword": "xm 秋のボーナス",
+   "share": 0.19
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/import-historicaldata.html",
+   "keywords": 5,
+   "clicks": 411,
+   "topKeyword": "mt5 ヒストリカル データ xm",
+   "share": 0.19
+  },
+  {
+   "path": "fxplus.xmtrading.com/market-rate/BTCUSD",
+   "keywords": 11,
+   "clicks": 375,
+   "topKeyword": "btc usd",
+   "share": 0.17
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-app/password-change.html",
+   "keywords": 1,
+   "clicks": 368,
+   "topKeyword": "xm 口座 パスワード変更",
+   "share": 0.17
+  },
+  {
+   "path": "xmtrading.com/jp/who-we-are",
+   "keywords": 2,
+   "clicks": 366,
+   "topKeyword": "xmデモ口座ログイン",
+   "share": 0.17
+  },
+  {
+   "path": "fxplus.xmtrading.com/userguide-mt/tradinghistory.html",
+   "keywords": 3,
+   "clicks": 322,
+   "topKeyword": "xm 年間損益確認",
+   "share": 0.15
+  },
+  {
+   "path": "xmtrading.com/jp/register/profile-account",
+   "keywords": 2,
+   "clicks": 322,
+   "topKeyword": "xmtrading デモ口座",
+   "share": 0.15
+  }
+ ],
+ "movers": {
+  "from": "2026-08",
+  "to": "2026-10",
+  "lost": [
+   {
+    "keyword": "moomoo",
+    "from": 628,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -628,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "日経225",
+    "from": 606,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -606,
+    "url": "xmtrading.com/jp/contact"
+   },
+   {
+    "keyword": "metatrader 5 download",
+    "from": 445,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -445,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "米ドル対円相場",
+    "from": 303,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -303,
+    "url": "xmtrading.com/jp/contact"
+   },
+   {
+    "keyword": "トレーディングビュー ダウンロード",
+    "from": 274,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -274,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "マネックス証券マイページ",
+    "from": 272,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -272,
+    "url": "xmtrading.com/jp/contact"
+   },
+   {
+    "keyword": "mt4 ログインできない",
+    "from": 237,
+    "to": 0,
+    "posFrom": 25,
+    "posTo": null,
+    "delta": -237,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "fx マイクロ口座　即日",
+    "from": 234,
+    "to": 0,
+    "posFrom": null,
+    "posTo": null,
+    "delta": -234,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   }
+  ],
+  "gained": [
+   {
+    "keyword": "ゴールド チャート",
+    "from": 0,
+    "to": 1749,
+    "posFrom": 32,
+    "posTo": 7,
+    "delta": 1749,
+    "url": "fxplus.xmtrading.com/market-rate/GOLD24-7"
+   },
+   {
+    "keyword": "ゴールドチャート",
+    "from": 0,
+    "to": 628,
+    "posFrom": 32,
+    "posTo": 6,
+    "delta": 628,
+    "url": "fxplus.xmtrading.com/market-rate/GOLD24-7"
+   },
+   {
+    "keyword": "楽天証券",
+    "from": 0,
+    "to": 372,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 372,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "郵便局の休日",
+    "from": 0,
+    "to": 312,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 312,
+    "url": "xmtrading.com/jp/contact"
+   },
+   {
+    "keyword": "大 陽線 アラート",
+    "from": 0,
+    "to": 290,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 290,
+    "url": "fxplus.xmtrading.com/glossary/big-bull-candle.html"
+   },
+   {
+    "keyword": "sbi新生銀行 初回ログイン",
+    "from": 0,
+    "to": 265,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 265,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "sbi新生 ネットバンキング ログイン 画面",
+    "from": 0,
+    "to": 265,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 265,
+    "url": "xmtrading.com/jp/landing/gold-deposit-bonus"
+   },
+   {
+    "keyword": "謝罪 深い",
+    "from": 0,
+    "to": 242,
+    "posFrom": null,
+    "posTo": null,
+    "delta": 242,
+    "url": "fxplus.xmtrading.com/media/2026040701.html"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "domain": "exness.com",
+   "keywords": 38,
+   "clicks": 8640,
+   "capped": false
+  },
+  {
+   "domain": "monex.co.jp",
+   "keywords": 10000,
+   "clicks": 2556061,
+   "capped": true
+  },
+  {
+   "domain": "rakuten-sec.co.jp",
+   "keywords": 10000,
+   "clicks": 13641857,
+   "capped": true
+  },
+  {
+   "domain": "kaigaifx.com",
+   "keywords": 146,
+   "clicks": 2549,
+   "capped": false
+  },
+  {
+   "domain": "fxsignup.com",
+   "keywords": 857,
+   "clicks": 84086,
+   "capped": false
+  }
+ ]
+}

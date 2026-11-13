@@ -14,7 +14,7 @@ def read(p): return open(os.path.join(ROOT, p), encoding='utf8').read()
 
 STATUS = {'prototype', 'beta', 'live'}
 ACCENT = {'green', 'blue', 'amber', 'purple', 'red', 'dark'}
-REQUIRED = ['id', 'name', 'description', 'category', 'status', 'icon', 'accent', 'owner', 'path']
+REQUIRED = ['id', 'name', 'description', 'category', 'status', 'icon', 'accent', 'owner']
 icons = set(re.findall(r"^\s{4}(\w+): '", read('assets/js/shell.js'), re.M))
 
 try:
@@ -23,6 +23,7 @@ except Exception as e:
     sys.exit('tools.json is not valid JSON: %s' % e)
 
 seen = set()
+seen_external = set()
 for t in tools:
     tid = t.get('id', '?')
     for k in REQUIRED:
@@ -33,8 +34,12 @@ for t in tools:
     if t.get('accent') not in ACCENT: fail('tools.json: "%s" accent must be one of %s' % (tid, sorted(ACCENT)))
     if icons and t.get('icon') not in icons: fail('tools.json: "%s" icon "%s" is not in assets/js/shell.js' % (tid, t.get('icon')))
     if len(t.get('description', '')) > 200: fail('tools.json: "%s" description is longer than 200 characters' % tid)
+    if t.get('url'):   # external tool: opens a separate site, no folder in tools/
+        if not re.match(r'https://[^\s]+$', t['url']): fail('tools.json: "%s" url must start with https://' % tid)
+        seen_external.add(tid)
+        continue
     path = t.get('path', '')
-    if path != 'tools/%s/' % tid: fail('tools.json: "%s" path must be "tools/%s/"' % (tid, tid))
+    if path != 'tools/%s/' % tid: fail('tools.json: "%s" needs a "path" of "tools/%s/" (or a "url" for an external tool)' % (tid, tid))
     if not os.path.isfile(os.path.join(ROOT, path, 'index.html')): fail('%sindex.html does not exist' % path)
 
 for d in sorted(os.listdir(os.path.join(ROOT, 'tools'))):

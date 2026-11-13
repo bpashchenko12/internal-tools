@@ -10,6 +10,17 @@
       "accent": "green",
       "owner": "Product team",
       "path": "tools/seo-agent/"
+    },
+    {
+      "id": "x-monitor",
+      "name": "X Monitor",
+      "description": "Monitoring of X posts and impressions by topic. Opens the standalone monitor on its own site; use the browser back button to return to the hub.",
+      "category": "Social",
+      "status": "live",
+      "icon": "radar",
+      "accent": "blue",
+      "owner": "Product team",
+      "url": "https://bpashchenko12.github.io/X-social_monitoring/#tab=macro&range=7&sort=impressions&dir=desc"
     }
   ]
 }

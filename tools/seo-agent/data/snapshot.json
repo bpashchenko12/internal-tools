@@ -4,21 +4,10 @@
   "marketCode": "JP",
   "language": "Japanese",
   "site": "xmtrading.com",
-  "period": "Aug 2026",
+  "period": "Oct 2026",
   "goal": "Increase website registrations",
-  "updated": "2026-11-13"
- },
- "similarweb": {
-  "organicKeywords": 787,
-  "organicKeywordsPrev": 726,
-  "organicClicks": "204.7K",
-  "organicClicksDelta": 12.7,
-  "nonBrandedShare": 12.6,
-  "nonBrandedDelta": 2.1,
-  "top3Keywords": 46,
-  "top3Delta": 7,
-  "landingPages": 128,
-  "top10PagesShare": 89
+  "updated": "2026-11-13",
+  "previousPeriod": "Sep 2026"
  },
  "ahrefs": {
   "tested": "26 Oct 2026",
@@ -30,245 +19,162 @@
   "liveBacklinks": "1.79M",
   "liveRefDomains": 4917
  },
- "keywords": [
+ "watchlist": [
   {
    "keyword": "xm",
    "source": "Similarweb",
-   "intent": "Navigational",
-   "volume": 98100,
-   "clicks": 82188,
-   "position": 1,
-   "difficulty": null,
-   "branded": true,
    "scope": "core",
+   "branded": true,
+   "intent": "Navigational",
    "note": "Brand"
   },
   {
    "keyword": "xmtrading",
    "source": "Similarweb",
-   "intent": "Navigational",
-   "volume": 51800,
-   "clicks": 39703,
-   "position": 1,
-   "difficulty": null,
-   "branded": true,
    "scope": "core",
+   "branded": true,
+   "intent": "Navigational",
    "note": "Brand"
   },
   {
    "keyword": "xm ログイン",
    "source": "Similarweb",
-   "intent": "Navigational",
-   "volume": 35500,
-   "clicks": 28098,
-   "position": 1,
-   "difficulty": null,
-   "branded": true,
    "scope": "core",
+   "branded": true,
+   "intent": "Navigational",
    "note": "Existing customers logging in"
   },
   {
    "keyword": "xm mt4 ダウンロード",
    "source": "Similarweb",
-   "intent": "Transactional",
-   "volume": 980,
-   "clicks": 671,
-   "position": 1,
-   "difficulty": 22,
-   "branded": true,
    "scope": "core",
+   "branded": true,
+   "intent": "Transactional",
    "note": "Defend: already position 1"
   },
   {
    "keyword": "xm リニューアル",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 250,
-   "clicks": 97,
-   "position": null,
-   "difficulty": null,
-   "branded": true,
    "scope": "core",
-   "note": "New query after the portal redesign"
+   "branded": true,
+   "intent": "Informational",
+   "note": "Query after the portal redesign; no XM ranking in the data"
   },
   {
    "keyword": "xmtrading tradingview",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 280,
-   "clicks": 77,
-   "position": null,
-   "difficulty": null,
-   "branded": true,
    "scope": "core",
-   "note": "New query; a competitor captures it"
+   "branded": true,
+   "intent": "Informational",
+   "note": "Query about TradingView with XM; no XM ranking"
   },
   {
    "keyword": "mt5",
    "source": "Ahrefs",
+   "scope": "core",
+   "branded": false,
    "intent": null,
+   "note": "Platform search",
    "volume": 15000,
-   "clicks": null,
    "position": 10,
    "difficulty": null,
-   "branded": false,
-   "scope": "core",
-   "note": "Platform search"
+   "clicks": null
   },
   {
    "keyword": "mt4ダウンロード",
    "source": "Ahrefs",
+   "scope": "core",
+   "branded": false,
    "intent": "Transactional",
+   "note": "Platform download",
    "volume": 3400,
-   "clicks": null,
    "position": 9,
    "difficulty": null,
-   "branded": false,
-   "scope": "core",
-   "note": "Platform download"
+   "clicks": null
   },
   {
    "keyword": "xmスプレッド",
    "source": "Ahrefs",
+   "scope": "core",
+   "branded": false,
    "intent": null,
+   "note": "Trading conditions",
    "volume": 1000,
-   "clicks": null,
    "position": 6,
    "difficulty": null,
-   "branded": false,
-   "scope": "core",
-   "note": "Trading conditions"
+   "clicks": null
   },
   {
    "keyword": "海外fx おすすめ",
    "source": "Similarweb",
-   "intent": "Commercial",
-   "volume": 18200,
-   "clicks": 160,
-   "position": 10,
-   "difficulty": 81,
-   "branded": false,
    "scope": "core",
-   "note": "Closest to registration, but very competitive"
+   "branded": false,
+   "intent": "Commercial",
+   "note": "Closest to registration, but XM does not rank"
   },
   {
    "keyword": "トレーディングビュー",
    "source": "Similarweb",
-   "intent": "Navigational",
-   "volume": 97800,
-   "clicks": 861,
-   "position": null,
-   "difficulty": 76,
-   "branded": false,
    "scope": "core",
-   "note": "No dedicated XM page ranks"
+   "branded": false,
+   "intent": "Navigational",
+   "note": "No dedicated XM page ranks; a campaign page gets the clicks"
   },
   {
    "keyword": "日経225",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 184400,
-   "clicks": 606,
-   "position": null,
-   "difficulty": 58,
-   "branded": false,
    "scope": "core",
-   "note": "Traffic lands on /jp/contact"
+   "branded": false,
+   "intent": "Informational",
+   "note": "Contact page no longer ranks (it did in Aug)"
   },
   {
    "keyword": "日経平均先物",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 760900,
-   "clicks": 4685,
-   "position": 8,
-   "difficulty": 72,
-   "branded": false,
    "scope": "core",
-   "note": "Rakuten captures 49.1K clicks"
+   "branded": false,
+   "intent": "Informational",
+   "note": "XM does not rank; Rakuten and Monex do"
   },
   {
    "keyword": "米ドル",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 121900,
-   "clicks": 6278,
-   "position": 2,
-   "difficulty": 67,
-   "branded": false,
    "scope": "core",
-   "note": "Already ranking well; expand coverage"
+   "branded": false,
+   "intent": "Informational",
+   "note": "XM does not rank; Monex is #2"
   },
   {
    "keyword": "s&p 500",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 1130000,
-   "clicks": 4651,
-   "position": 6,
-   "difficulty": null,
-   "branded": false,
    "scope": "review",
-   "note": "Check fit with the product range"
+   "branded": false,
+   "intent": "Informational",
+   "note": "XM does not rank; check fit with the product range"
   },
   {
    "keyword": "決算発表スケジュール",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 25800,
-   "clicks": 5065,
-   "position": 3,
-   "difficulty": null,
-   "branded": false,
    "scope": "review",
-   "note": "Stock-earnings topic; check fit"
+   "branded": false,
+   "intent": "Informational",
+   "note": "XM does not rank; stock-earnings topic, check fit"
   },
   {
    "keyword": "海外fx 出金 最新情報",
    "source": "Similarweb",
-   "intent": "Informational",
-   "volume": 360,
-   "clicks": 66,
-   "position": null,
-   "difficulty": null,
-   "branded": false,
    "scope": "core",
-   "note": "New; withdrawal questions"
+   "branded": false,
+   "intent": "Informational",
+   "note": "No measurable volume"
   },
   {
    "keyword": "exness trade app",
    "source": "Similarweb",
-   "intent": "Navigational",
-   "volume": 120,
-   "clicks": 22,
-   "position": null,
-   "difficulty": null,
-   "branded": false,
    "scope": "core",
+   "branded": false,
+   "intent": "Navigational",
    "note": "Competitor brand query"
-  }
- ],
- "shares": [
-  {
-   "name": "XM Trading",
-   "value": 41.8,
-   "me": true
-  },
-  {
-   "name": "Exness",
-   "value": 22.4
-  },
-  {
-   "name": "Rakuten Sec.",
-   "value": 17.6
-  },
-  {
-   "name": "Monex",
-   "value": 10.2
-  },
-  {
-   "name": "Other",
-   "value": 8.0
   }
  ],
  "competitors": [
@@ -277,8 +183,8 @@
    "name": "Exness",
    "domain": "exness.com",
    "tone": "purple",
-   "threat": "High",
-   "takeaway": "Publishing product-led utility pages: calculator, currency converter, reviews, crypto and VPS."
+   "threat": "Low",
+   "takeaway": "Publishing product-led utility pages (calculator, converter, reviews), but only 38 organic keywords in Japan."
   },
   {
    "id": "monex",
@@ -294,23 +200,23 @@
    "domain": "rakuten-sec.co.jp",
    "tone": "blue",
    "threat": "Medium",
-   "takeaway": "Dominates Nikkei futures and market pages (49.1K clicks on 日経平均先物). The benchmark for a market hub."
+   "takeaway": "Dominates Nikkei futures and market pages (11.8K clicks on 日経平均先物). The benchmark for a market hub."
   },
   {
    "id": "kaigaifx",
    "name": "KaigaiFX",
    "domain": "kaigaifx.com",
    "tone": "red",
-   "threat": "High",
-   "takeaway": "Review site answering XM-intent questions (redesign, TradingView, withdrawals) that XM does not answer itself."
+   "threat": "Medium",
+   "takeaway": "Review site with a dedicated XM page. It gets about 750 clicks a month on XM brand terms."
   },
   {
    "id": "fxsignup",
    "name": "FXSignup",
    "domain": "fxsignup.com",
    "tone": "amber",
-   "threat": "Medium",
-   "takeaway": "Affiliate site sharing 31% of its keywords with XM (Ahrefs). Check which brokers it promotes."
+   "threat": "High",
+   "takeaway": "Affiliate site ranking #2 for 'xm' (13K clicks). Shares 31% of its keywords with XM (Ahrefs). Check which brokers it promotes."
   }
  ],
  "newPages": [
@@ -371,301 +277,151 @@
    "opp": null
   }
  ],
- "pageInventory": [
-  {
-   "path": "xmtrading.com/jp",
+ "pageNotes": {
+  "xmtrading.com/jp": {
    "category": "Core",
-   "keyword": "xm",
-   "keywords": 64,
-   "clicks": 86649.2,
-   "share": 42.337,
    "assessment": "Strong"
   },
-  {
-   "path": "my.xmtrading.com/jp",
+  "my.xmtrading.com/jp": {
    "category": "Account",
-   "keyword": "xm ログイン",
-   "keywords": 58,
-   "clicks": 49380.1,
-   "share": 24.127,
    "assessment": "Strong"
   },
-  {
-   "path": "xmtrading.com/jp/landing/gold-deposit-bonus",
+  "xmtrading.com/jp/landing/gold-deposit-bonus": {
    "category": "Campaign",
-   "keyword": "xm",
-   "keywords": 61,
-   "clicks": 13104.8,
-   "share": 6.403,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/landing/bing-db-gold/jp",
-   "category": "Campaign",
-   "keyword": "xm",
-   "keywords": 59,
-   "clicks": 7907.2,
-   "share": 3.863,
-   "assessment": "Review"
-  },
-  {
-   "path": "xmtrading.com/jp/promotions",
-   "category": "Campaign",
-   "keyword": "xm",
-   "keywords": 15,
-   "clicks": 5350,
-   "share": 2.614,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/xmtd-traderpro-app",
-   "category": "Platform",
-   "keyword": "xm",
-   "keywords": 7,
-   "clicks": 4862.5,
-   "share": 2.376,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/mt4",
-   "category": "Platform",
-   "keyword": "xm mt4",
-   "keywords": 22,
-   "clicks": 4374.5,
-   "share": 2.137,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/mt5",
-   "category": "Platform",
-   "keyword": "xm mt5",
-   "keywords": 39,
-   "clicks": 4044.8,
-   "share": 1.976,
-   "assessment": "Strong"
-  },
-  {
-   "path": "my.xmtrading.com/jp/member/login",
-   "category": "Account",
-   "keyword": "xm",
-   "keywords": 14,
-   "clicks": 3431.2,
-   "share": 1.677,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/forex",
-   "category": "Product",
-   "keyword": "xm",
-   "keywords": 7,
-   "clicks": 3132.9,
-   "share": 1.531,
-   "assessment": "Expand"
-  },
-  {
-   "path": "xmtrading.com/jp/help-centre",
-   "category": "Support",
-   "keyword": "xmtrading",
-   "keywords": 14,
-   "clicks": 2473.3,
-   "share": 1.208,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/platforms",
-   "category": "Platform",
-   "keyword": "xmtrading",
-   "keywords": 10,
-   "clicks": 1764.3,
-   "share": 0.862,
-   "assessment": "Expand"
-  },
-  {
-   "path": "xmtrading.com/jp/register/profile-account",
-   "category": "Account",
-   "keyword": "xmtrading",
-   "keywords": 9,
-   "clicks": 1517.7,
-   "share": 0.742,
-   "assessment": "Strong"
-  },
-  {
-   "path": "my.xmtrading.com/jp/forgot/password",
-   "category": "Account",
-   "keyword": "xm ログイン",
-   "keywords": 5,
-   "clicks": 1077.7,
-   "share": 0.527,
-   "assessment": "Utility"
-  },
-  {
-   "path": "xmtrading.com/jp/contact",
-   "category": "Support",
-   "keyword": "日経225",
-   "keywords": 10,
-   "clicks": 1069.6,
-   "share": 0.523,
-   "assessment": "Misrouted"
-  },
-  {
-   "path": "my.xmtrading.com",
-   "category": "Account",
-   "keyword": "xmtrading",
-   "keywords": 11,
-   "clicks": 1029.6,
-   "share": 0.503,
-   "assessment": "Review"
-  },
-  {
-   "path": "xmtrading.com/jp/calculators/all-in-one",
-   "category": "Product",
-   "keyword": "xm証拠金",
-   "keywords": 26,
-   "clicks": 888.2,
-   "share": 0.434,
-   "assessment": "Expand"
-  },
-  {
-   "path": "mypartners.xmtrading.com",
-   "category": "Partner",
-   "keyword": "xm アフィリエイト ログイン",
-   "keywords": 4,
-   "clicks": 681.8,
-   "share": 0.333,
-   "assessment": "Strong"
-  },
-  {
-   "path": "xmtrading.com/jp/who-we-are",
-   "category": "Corporate",
-   "keyword": "btobプラットフォームtrade",
-   "keywords": 9,
-   "clicks": 675.8,
-   "share": 0.33,
-   "assessment": "Review"
-  },
-  {
-   "path": "fxplus.xmtrading.com/media/2025111201.html",
-   "category": "Editorial",
-   "keyword": "ｘｍ 銀行出金 日数",
-   "keywords": 8,
-   "clicks": 504.3,
-   "share": 0.246,
-   "assessment": "Useful"
-  },
-  {
-   "path": "my.xmtrading.com/jp/member/report_open",
-   "category": "Account",
-   "keyword": "xmtrading ログイン",
-   "keywords": 6,
-   "clicks": 473.1,
-   "share": 0.231,
-   "assessment": "Utility"
-  },
-  {
-   "path": "xmtrading.com/jp/trading-conditions",
-   "category": "Product",
-   "keyword": "xmトレーディング",
-   "keywords": 7,
-   "clicks": 447.1,
-   "share": 0.218,
-   "assessment": "Expand"
-  },
-  {
-   "path": "my.xmtrading.com/jp/member",
-   "category": "Account",
-   "keyword": "xm ログイン",
-   "keywords": 6,
-   "clicks": 421.8,
-   "share": 0.206,
-   "assessment": "Utility"
-  },
-  {
-   "path": "xmtrading.com/jp/regulation",
-   "category": "Corporate",
-   "keyword": "auカブコム証券 ログイン",
-   "keywords": 4,
-   "clicks": 385.6,
-   "share": 0.188,
    "assessment": "Mismatch"
   },
-  {
-   "path": "fxplus.xmtrading.com/userguide-app/transfer-funds.html",
-   "category": "Support",
-   "keyword": "xm資金移動",
-   "keywords": 4,
-   "clicks": 307.8,
-   "share": 0.15,
-   "assessment": "Useful"
+  "xmtrading.com/jp/promotions": {
+   "category": "Campaign",
+   "assessment": "Strong"
   },
-  {
-   "path": "fxplus.xmtrading.com/userguide-mt/marketwatch.html",
-   "category": "Support",
-   "keyword": "mt4 気配値表示",
-   "keywords": 3,
-   "clicks": 295.9,
-   "share": 0.145,
-   "assessment": "Useful"
+  "xmtrading.com/jp/xmtd-traderpro-app": {
+   "category": "Platform",
+   "assessment": "Strong"
   },
-  {
-   "path": "fxplus.xmtrading.com/userguide-app/account-close.html",
-   "category": "Support",
-   "keyword": "xm 口座削除",
-   "keywords": 2,
-   "clicks": 281.3,
-   "share": 0.137,
-   "assessment": "Useful"
+  "xmtrading.com/jp/mt4": {
+   "category": "Platform",
+   "assessment": "Strong"
   },
-  {
-   "path": "fxplus.xmtrading.com/news",
-   "category": "Editorial",
-   "keyword": "xm",
-   "keywords": 3,
-   "clicks": 268.8,
-   "share": 0.131,
+  "xmtrading.com/jp/mt5": {
+   "category": "Platform",
+   "assessment": "Strong"
+  },
+  "my.xmtrading.com/jp/member/login": {
+   "category": "Account",
+   "assessment": "Strong"
+  },
+  "xmtrading.com/jp/forex": {
+   "category": "Product",
    "assessment": "Expand"
   },
-  {
-   "path": "fxplus.xmtrading.com/userguide-mt/login-sp.html",
+  "xmtrading.com/jp/help-centre": {
    "category": "Support",
-   "keyword": "xm スマホ mt5",
-   "keywords": 13,
-   "clicks": 233,
-   "share": 0.114,
+   "assessment": "Strong"
+  },
+  "xmtrading.com/jp/platforms": {
+   "category": "Platform",
+   "assessment": "Expand"
+  },
+  "xmtrading.com/jp/register/profile-account": {
+   "category": "Account",
+   "assessment": "Strong"
+  },
+  "my.xmtrading.com/jp/forgot/password": {
+   "category": "Account",
+   "assessment": "Utility"
+  },
+  "xmtrading.com/jp/contact": {
+   "category": "Support",
+   "assessment": "Review"
+  },
+  "my.xmtrading.com": {
+   "category": "Account",
+   "assessment": "Review"
+  },
+  "xmtrading.com/jp/calculators/all-in-one": {
+   "category": "Product",
+   "assessment": "Expand"
+  },
+  "mypartners.xmtrading.com": {
+   "category": "Partner",
+   "assessment": "Strong"
+  },
+  "xmtrading.com/jp/who-we-are": {
+   "category": "Corporate",
+   "assessment": "Review"
+  },
+  "fxplus.xmtrading.com/media/2025111201.html": {
+   "category": "Editorial",
    "assessment": "Useful"
   },
-  {
-   "path": "partners.xmtrading.com/jp",
+  "my.xmtrading.com/jp/member/report_open": {
+   "category": "Account",
+   "assessment": "Utility"
+  },
+  "xmtrading.com/jp/trading-conditions": {
+   "category": "Product",
+   "assessment": "Expand"
+  },
+  "my.xmtrading.com/jp/member": {
+   "category": "Account",
+   "assessment": "Utility"
+  },
+  "xmtrading.com/jp/regulation": {
+   "category": "Corporate",
+   "assessment": "Mismatch"
+  },
+  "fxplus.xmtrading.com/userguide-app/transfer-funds.html": {
+   "category": "Support",
+   "assessment": "Useful"
+  },
+  "fxplus.xmtrading.com/userguide-mt/marketwatch.html": {
+   "category": "Support",
+   "assessment": "Useful"
+  },
+  "fxplus.xmtrading.com/userguide-app/account-close.html": {
+   "category": "Support",
+   "assessment": "Useful"
+  },
+  "fxplus.xmtrading.com/news": {
+   "category": "Editorial",
+   "assessment": "Expand"
+  },
+  "fxplus.xmtrading.com/userguide-mt/login-sp.html": {
+   "category": "Support",
+   "assessment": "Useful"
+  },
+  "partners.xmtrading.com/jp": {
    "category": "Partner",
-   "keyword": "xm アフィリエイト",
-   "keywords": 5,
-   "clicks": 216.8,
-   "share": 0.106,
    "assessment": "Strong"
   }
- ],
+ },
  "opportunities": [
   {
    "id": "OPP-01",
-   "title": "Fix 日経225 traffic landing on the contact page",
+   "title": "Stop campaign pages ranking for unrelated queries",
    "type": "Fix",
-   "distance": "far",
-   "impact": 4,
-   "confidence": 3,
+   "distance": "mid",
+   "impact": 3,
+   "confidence": 2,
    "effort": 1,
    "owner": "SEO",
-   "summary": "About 184K monthly searches for 日経225 resolve to a support contact page instead of a page that explains the market and leads to registration.",
+   "summary": "The gold deposit bonus campaign pages are the top-ranking XM page for 88 keywords and about 9.4K estimated clicks (4.4% of XM organic clicks). Many are other companies' logins or product searches the page cannot answer.",
    "evidence": [
     [
      "Similarweb",
-     "日経225: 184.4K searches, 606 estimated clicks."
+     "/jp/landing/gold-deposit-bonus and its tracking variants: 88 keywords, 9.4K estimated clicks (Oct 2026)."
     ],
     [
      "Similarweb",
-     "/jp/contact is the ranking URL and is flagged Misrouted in site pages (1.1K clicks)."
+     "Includes トレーディングビュー (992 clicks), 楽天証券 (372), SBI新生銀行 初回ログイン (265) and au カブコム証券 ログイン (254)."
+    ],
+    [
+     "Similarweb",
+     "The contact page showed the same pattern in Aug (日経225, 606 clicks). That query is gone, but the page still ranks for an unrelated one (郵便局の休日, 312 clicks in Oct)."
     ]
    ],
-   "action": "Create or choose a Nikkei 225 page, re-point internal links and metadata, and remove 日経225 targeting from the contact page.",
-   "validation": "Search Console clicks and position for 日経225 four weeks after the change; registration starts from the new landing page once events exist."
+   "action": "Check in Search Console which queries the campaign URLs rank for. Add noindex or a canonical on the tracking variants, and send TradingView and platform queries to dedicated pages (see OPP-06).",
+   "validation": "The campaign pages' keyword count falls, clicks to the MT5 and TradingView pages rise, and bonus-related clicks do not drop."
   },
   {
    "id": "OPP-02",
@@ -711,7 +467,11 @@
     ],
     [
      "Similarweb",
-     "xm mt4 ダウンロード: position 1, difficulty 22. Defend it."
+     "xm mt4 ダウンロード: position 1, 678 estimated clicks, difficulty 35 (Oct 2026). Defend it."
+    ],
+    [
+     "Similarweb",
+     "mt5 ranks #8 and mt5 ダウンロード #5, but together they send under 150 clicks."
     ]
    ],
    "action": "Refresh titles, headings and content on /jp/mt5 and /jp/mt4, add internal links from high-traffic pages, and place a registration call to action next to the download.",
@@ -745,19 +505,23 @@
    "title": "Publish an XM portal redesign and migration guide",
    "type": "Content",
    "distance": "far",
-   "impact": 3,
-   "confidence": 3,
+   "impact": 2,
+   "confidence": 1,
    "effort": 1,
    "owner": "Product",
-   "summary": "Customers and prospects search for answers about the new portal, and a third-party review site answers them.",
+   "summary": "Questions about the new portal peaked after the change and a third-party site answered them. Demand has since faded, so this mostly protects existing customers.",
    "evidence": [
     [
      "Similarweb",
-     "KaigaiFX ranks for 'xm インターフェースが変わった' (1,070 searches, 136 clicks)."
+     "In Aug, KaigaiFX ranked for 'xm インターフェースが変わった' (136 clicks). The query is not in the Oct data."
     ],
     [
      "Similarweb",
-     "No official XM page answering this is in the top-30 pages."
+     "KaigaiFX's portal explainer now gets about 2 clicks a month."
+    ],
+    [
+     "Similarweb",
+     "No official XM page answering this is in the top-40 pages."
     ]
    ],
    "action": "Publish a change log covering wallet, login and MT4/MT5 migration, and link it from the login page.",
@@ -772,19 +536,19 @@
    "confidence": 2,
    "effort": 2,
    "owner": "Product",
-   "summary": "97.8K monthly searches for TradingView and no dedicated XM page ranks. The traffic XM gets lands on a gold campaign page.",
+   "summary": "91K monthly searches for TradingView and no dedicated XM page ranks. The traffic XM gets lands on a gold campaign page.",
    "evidence": [
     [
      "Similarweb",
-     "トレーディングビュー: 97.8K searches, 861 estimated clicks, no ranking page."
+     "トレーディングビュー: 91.1K searches, 992 estimated clicks, no ranking XM page (Oct 2026)."
     ],
     [
      "Similarweb",
-     "KaigaiFX captures 'xmtrading tradingview' (280 searches)."
+     "None of the five tracked competitors capture this query, so XM could be the first official answer."
     ]
    ],
    "action": "Create an official guide covering compatibility, setup and limitations, with a registration call to action.",
-   "validation": "Position and clicks for トレーディングビュー and xmtrading tradingview; registration starts from the guide."
+   "validation": "Position and clicks for トレーディングビュー; registration starts from the guide."
   },
   {
    "id": "OPP-07",
@@ -799,38 +563,38 @@
    "evidence": [
     [
      "Similarweb",
-     "日経平均先物: 760.9K searches; XM ranks #8 with 4.7K estimated clicks."
+     "日経平均先物: 739K searches (Oct 2026). XM does not appear in the ranking data."
     ],
     [
      "Similarweb",
-     "Rakuten captures 49.1K clicks on the same query; Monex's futures guide gets 19.4K."
+     "Rakuten captures 11.8K clicks and Monex 7.7K clicks on it, both at position 5."
     ]
    ],
    "action": "Build a durable hub page for Nikkei 225 and futures with market context and a path into registration. Pair it with OPP-01.",
-   "validation": "Position and clicks for the hub's keyword cluster; share of non-brand clicks (now 12.6%)."
+   "validation": "Position and clicks for the hub's keyword cluster; share of non-brand clicks (now 10.6%)."
   },
   {
    "id": "OPP-08",
    "title": "Consolidate a withdrawal timing and status guide",
    "type": "Content",
    "distance": "mid",
-   "impact": 3,
-   "confidence": 2,
+   "impact": 2,
+   "confidence": 1,
    "effort": 1,
    "owner": "Content",
-   "summary": "Withdrawal questions affect trust, which affects registration. XM has partial coverage spread across support articles.",
+   "summary": "Withdrawal questions affect trust, which affects registration. XM has partial coverage spread across support articles, and measured demand is small.",
    "evidence": [
     [
      "Similarweb",
-     "海外fx 出金 最新情報: 360 searches, new query."
+     "海外fx 出金 最新情報 has no measurable search volume in Oct 2026."
     ],
     [
      "Similarweb",
-     "KaigaiFX's withdrawal guide gets about 116 estimated clicks."
+     "KaigaiFX's XM withdrawal pages get almost no clicks."
     ],
     [
      "Similarweb",
-     "An XM FXPlus article covers bank withdrawal timing."
+     "An XM FXPlus article on bank withdrawal timing gets 583 estimated clicks."
     ]
    ],
    "action": "Merge the support content into one canonical, regularly updated guide.",
@@ -838,26 +602,26 @@
   },
   {
    "id": "OPP-09",
-   "title": "Add an indexable economic calendar",
+   "title": "Make XM's economic calendar rank",
    "type": "Content",
    "distance": "mid",
    "impact": 3,
    "confidence": 2,
    "effort": 2,
    "owner": "Content",
-   "summary": "Monex gets large organic traffic from a calendar page. XM may already have a tool that search engines cannot see.",
+   "summary": "Monex gets large organic traffic from its calendar page. XM already has a calendar on FXPlus, but it barely ranks.",
    "evidence": [
     [
      "Similarweb",
-     "Monex calendar page: about 29.3K estimated organic clicks."
+     "Monex's economic indicator calendar page: about 28.9K estimated organic clicks (Oct 2026)."
     ],
     [
      "Similarweb",
-     "No calendar page appears in XM's top-30 pages. Verify first."
+     "XM's FXPlus calendar ranks #12 for 指標発表 with no measurable clicks."
     ]
    ],
-   "action": "Check existing tools, then consolidate into one indexable Japan calendar page.",
-   "validation": "Indexation of the page, clicks, and registration starts from it."
+   "action": "Check that the FXPlus calendar is indexable and answers the query, then strengthen it or consolidate it into one Japan calendar page.",
+   "validation": "Position for 指標発表 and 経済指標, clicks to the page, and registration starts from it."
   },
   {
    "id": "OPP-10",
@@ -868,11 +632,15 @@
    "confidence": 2,
    "effort": 3,
    "owner": "Compliance",
-   "summary": "The search closest to a registration decision. It is also the hardest to win and the most sensitive for compliance.",
+   "summary": "The search closest to a registration decision. It is also competitive and the most sensitive for compliance.",
    "evidence": [
     [
      "Similarweb",
-     "海外fx おすすめ: 18.2K searches, XM at position 10, 160 estimated clicks, difficulty 81."
+     "海外fx おすすめ: 3.3K searches, difficulty 25 (Oct 2026). XM does not appear in the ranking data."
+    ],
+    [
+     "Similarweb",
+     "fxsignup.com ranks #3 (200 clicks) and KaigaiFX #8 (9 clicks)."
     ]
    ],
    "action": "Agree with Compliance what XM may publish before any page is built.",
@@ -883,19 +651,23 @@
    "title": "Review affiliate sites ranking for XM terms",
    "type": "Competitor",
    "distance": "far",
-   "impact": 3,
-   "confidence": 2,
+   "impact": 4,
+   "confidence": 3,
    "effort": 2,
    "owner": "SEO",
-   "summary": "Affiliate and review sites capture searches that mention XM and may promote competitors.",
+   "summary": "Affiliate and review sites capture about 20K estimated monthly clicks on searches for XM itself, and may promote competitors.",
    "evidence": [
     [
-     "Ahrefs",
-     "fxsignup.com shares 1,293 keywords with XM (31% of its keywords)."
+     "Similarweb",
+     "fxsignup.com ranks #2 for xm (13.0K estimated clicks) and xmtrading (3.0K), and #1 for xm ログイン (4.3K)."
     ],
     [
      "Similarweb",
-     "KaigaiFX's XM comparison page is rated Critical for relevance."
+     "KaigaiFX's /details/xm page gets about 750 clicks on xm and xmtrading (#6 and #8)."
+    ],
+    [
+     "Ahrefs",
+     "fxsignup.com shares 1,293 keywords with XM (31% of its keywords)."
     ]
    ],
    "action": "Map which affiliate sites rank for XM brand and platform queries, which brokers they promote, and check partner compliance.",
@@ -914,11 +686,15 @@
    "evidence": [
     [
      "Similarweb",
-     "Exness launched /exness-reviews."
+     "Exness launched /exness-reviews (detected Aug 2026)."
     ],
     [
      "Similarweb",
      "XM's regulation and who-we-are pages exist separately."
+    ],
+    [
+     "Similarweb",
+     "Exness has only 38 organic keywords in Japan, so the pressure is limited here."
     ]
    ],
    "action": "Draft a compliant hub linking regulation, security and policies.",
@@ -937,11 +713,11 @@
    "evidence": [
     [
      "Similarweb",
-     "Exness /calculator and /currency-converter, both new."
+     "Exness /calculator and /currency-converter, both new (detected Aug 2026)."
     ],
     [
      "Similarweb",
-     "XM has /jp/calculators/all-in-one (888 clicks)."
+     "XM has /jp/calculators/all-in-one (1.5K clicks in Oct 2026)."
     ]
    ],
    "action": "Decide whether to extend the existing calculator or add a converter.",
@@ -961,12 +737,12 @@
  "sources": [
   {
    "name": "Similarweb",
-   "status": "snapshot",
-   "label": "Snapshot",
-   "freshness": "Aug 2026",
+   "status": "live",
+   "label": "Collected by API",
+   "freshness": "Oct 2026",
    "coverage": "Organic search, Japan, all devices",
-   "powers": "Keywords, clicks, competitors, site pages",
-   "caveat": "Modelled estimates, not XM's own numbers."
+   "powers": "Keywords, clicks, pages, competitors, trends",
+   "caveat": "Modelled estimates, not XM's own numbers. Refresh with collect_similarweb.py."
   },
   {
    "name": "Ahrefs",

@@ -65,6 +65,7 @@ Create or change **one tool** in `tools/<tool-id>/` and register it in `tools.js
 
 - `id`: unique, lowercase, dashes. The folder name must be the same.
 - `path`: exactly `tools/<id>/` with a trailing slash, and the folder must contain `index.html`.
+- `url`: use instead of `path` for a tool that already lives on its own site (an `https://` address). The icon then opens that site in the same tab and the browser back button returns to the hub. No folder is needed in `tools/`. Example: the X Monitor entry.
 - `status`: `prototype`, `beta` or `live`. It shows as a badge on the app icon (`live` shows no badge).
 - `icon`: one of `search`, `chart`, `radar`, `grid`, `bolt`, `globe`, `users`, `book`, `shield`, `doc`, `spark`, `plus`, `arrow`, `back`, `lock`. A new icon can be added to the `ICONS` object in `assets/js/shell.js` (stroke icon on a 24 by 24 grid), but only if the human agrees.
 - `accent`: `green`, `blue`, `amber`, `purple`, `red` or `dark`. It is the app icon colour.
@@ -161,7 +162,7 @@ Available as `window.XMTools` after `shell.js` loads:
 
 - Never put API keys, tokens, passwords or credentials in the repository or in browser code. The repository is public.
 - Do not call paid or private APIs from the browser. Collect data in a separate job (a script, a scheduled GitHub Action with repository secrets, or a notebook), sanitise it, and commit only the resulting JSON under `tools/<tool-id>/data/`.
-- Load data with a relative path: `fetch('data/snapshot.json')`.
+- Load data with a relative path: `fetch('data/snapshot.json')`. Example of a collector kept next to its data: `tools/seo-agent/collect_similarweb.py` (reads the API key from an environment variable and writes `data/similarweb.json`).
 - Do not commit raw exports, personal data or customer data. Treat everything committed as public, because the password gate only hides the page, not the files.
 - Say clearly in the interface when numbers are estimates or when a source is not connected. Never invent numbers.
 - Do not load third-party scripts. The checker rejects them.
