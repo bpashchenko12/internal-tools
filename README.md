@@ -1,0 +1,49 @@
+# XMTrading Internal AI Tools
+
+One hub for every internal tool. Plain HTML/CSS/JS, no build step, hosted as a static site.
+
+- **Home screen:** `index.html` reads `tools.json` and shows an iOS-style app icon per tool, plus a list with descriptions.
+- **Style:** `assets/css/xm.css` (XMTrading look). Live reference: `docs/guide.html`.
+- **Login:** `assets/js/gate.js` asks for one shared password and remembers it on the device.
+- **Tools:** one folder each under `tools/`. Start from `tools/_template/`.
+- **Checks:** `python3 scripts/check.py` validates the rules. It also runs on every pull request.
+
+## Run locally
+
+    python3 -m http.server 8000
+
+Open http://localhost:8000.
+
+## Add a tool
+
+1. Copy `tools/_template/` to `tools/<your-tool-id>/`.
+2. Build your page with the shared styles (see `docs/guide.html`).
+3. Add an entry to `tools.json` (name, description, category, status, icon, accent, owner, path).
+4. Run `python3 scripts/check.py`.
+5. Open a pull request. After review and merge the site redeploys and the app icon appears.
+
+## Deploy and share with the team
+
+One-time setup (repository owner):
+
+1. Create a **private** repository in the company GitHub organisation, for example `internal-tools`.
+2. From this folder:
+
+       git init -b main
+       git add .
+       git commit -m "Internal tools hub"
+       git remote add origin git@github.com:<org>/internal-tools.git
+       git push -u origin main
+
+3. In GitHub: Settings, Pages, Source = **GitHub Actions**. The workflow `.github/workflows/deploy-pages.yml` publishes on every push to `main`. The URL appears in the workflow run.
+4. Give access: Settings, Collaborators and teams, add the team with **Write** (contributors) and keep **Admin** for owners.
+5. Protect `main`: Settings, Branches, add a rule that requires a pull request, one approval and the `check` status before merge. Everyone then adds tools through pull requests.
+6. Share the site URL and the password in a password manager, not in chat or email.
+
+Hosting note: GitHub Pages from a private repository needs GitHub Team or Enterprise Cloud. The published site is reachable by anyone with the URL unless your plan supports private Pages. The shared password is a client-side gate, not real security. If the tools show anything sensitive, host behind company SSO instead, for example Cloudflare Pages with Cloudflare Access, or a Netlify / Vercel site with team authentication. The files are static, so only the host changes.
+
+## Change the password
+
+    python3 scripts/set-password.py
+
+Commit `assets/js/gate.js` and push. Everyone is asked to log in again. Only a salted hash is stored. Never commit API keys or raw sensitive data.

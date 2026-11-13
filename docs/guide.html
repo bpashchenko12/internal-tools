@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="../assets/js/gate.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Guide · XMTrading Internal Tools</title>
+  <link rel="stylesheet" href="../assets/css/xm.css" />
+  <style>
+    .guide { max-width: 920px; }
+    .guide h2 { margin: 44px 0 12px; }
+    .guide h3 { margin: 24px 0 8px; font-size: 18px; }
+    .guide p, .guide li { color: var(--ink-2); }
+    .guide ol, .guide ul.dots { padding-left: 22px; margin: 10px 0; }
+    .guide ol { list-style: decimal; } .guide ul.dots { list-style: disc; }
+    .guide li { margin: 6px 0; }
+    code { background: var(--soft); border-radius: 6px; padding: 1px 6px; font-size: var(--fs-s); }
+    pre { background: var(--dark); color: #d6dae0; border-radius: var(--r-m); padding: 16px 18px; overflow-x: auto; font-size: var(--fs-s); line-height: 1.6; }
+    pre code { background: none; padding: 0; color: inherit; }
+    .sw { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+    .sw div { border: 1px solid var(--line); border-radius: var(--r-m); overflow: hidden; background: #fff; font-size: var(--fs-xs); }
+    .sw i { display: block; height: 52px; }
+    .sw span { display: block; padding: 8px 10px; }
+    .sw b { display: block; font-size: var(--fs-s); }
+    .demo { padding: 22px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  </style>
+</head>
+<body>
+  <div id="hub-bar" data-title="Guide"></div>
+
+  <main class="page guide">
+    <div class="eyebrow">Guide</div>
+    <h1 class="h-l" style="margin-top:8px">Build a tool in the XM style</h1>
+    <p style="margin-top:10px">Every tool is a folder of plain HTML, CSS and JS. No build step, no framework, no login code to write.</p>
+
+    <h2 class="h-m" id="add">Add your tool</h2>
+    <ol>
+      <li>Copy <code>tools/_template/</code> to <code>tools/your-tool-id/</code> (lowercase, dashes).</li>
+      <li>Edit <code>index.html</code>: title, <code>data-title</code> on the top bar, and your content. Keep the <code>gate.js</code> line first in <code>&lt;head&gt;</code>.</li>
+      <li>Register the tool by adding an entry to <code>tools.json</code>:
+<pre><code>{
+  "id": "your-tool-id",
+  "name": "Your Tool",
+  "description": "One sentence, under 140 characters.",
+  "category": "SEO &amp; Marketing",
+  "status": "prototype",        // prototype | beta | live
+  "icon": "chart",              // see assets/js/shell.js
+  "accent": "green",            // green | blue | amber | purple | red | dark
+  "owner": "Your name",
+  "path": "tools/your-tool-id/"
+}</code></pre></li>
+      <li>Test locally: <code>python3 -m http.server 8000</code>, open <code>http://localhost:8000</code>, then run <code>python3 scripts/check.py</code>.</li>
+      <li>Open a pull request. After review and merge the hub redeploys and the tool appears on the home screen as an app icon (the icon and accent colour you chose).</li>
+    </ol>
+
+    <h2 class="h-m">Style rules</h2>
+    <ul class="dots">
+      <li>Use <code>assets/css/xm.css</code> only. Colours, radius, shadows and sizes come from <code>var(--tokens)</code>; never write a hex colour.</li>
+      <li>Font is Poppins. Smallest text is 12px (<code>--fs-xs</code>).</li>
+      <li>Primary actions are green <code>.btn-primary</code>; one per screen.</li>
+      <li>Page = <code>.page</code> + <code>.page-head</code> (eyebrow, title, one line of context, optional action).</li>
+      <li>Use cards, stats, tags, tables and tabs from this page before inventing anything new.</li>
+      <li>Your own CSS goes in <code>tool.css</code>, class names prefixed with your tool id.</li>
+      <li>Green = good/brand,"accent": "green",            // green | blue | amber | purple | red | dark = bad/risk, amber = needs attention, blue = information.</li>
+      <li>Never put API keys or passwords in the repo or browser code. Fetch data on a server or scheduled job and commit sanitized JSON only.</li>
+    </ul>
+
+    <h2 class="h-m">Colours</h2>
+    <div class="sw">
+      <div><i style="background:var(--g)"></i><span><b>--g</b>Brand green</span></div>
+      <div><i style="background:var(--g-d)"></i><span><b>--g-d</b>Green hover</span></div>
+      <div><i style="background:var(--g-l)"></i><span><b>--g-l</b>Green tint</span></div>
+      <div><i style="background:var(--ink)"></i><span><b>--ink</b>Text</span></div>
+      <div><i style="background:var(--ink-2)"></i><span><b>--ink-2</b>Secondary text</span></div>
+      <div><i style="background:var(--mut)"></i><span><b>--mut</b>Muted text</span></div>
+      <div><i style="background:var(--line)"></i><span><b>--line</b>Borders</span></div>
+      <div><i style="background:var(--bg)"></i><span><b>--bg</b>Page background</span></div>
+      <div><i style="background:var(--dark)"></i><span><b>--dark</b>Top bar, hero</span></div>
+      <div><i style="background:var(--red)"></i><span><b>--red</b>Risk, error</span></div>
+      <div><i style="background:var(--amber)"></i><span><b>--amber</b>Attention</span></div>
+      <div><i style="background:var(--blue)"></i><span><b>--blue</b>Information</span></div>
+    </div>
+
+    <h2 class="h-m">Type</h2>
+    <div class="card card-pad">
+      <div class="eyebrow">Eyebrow</div>
+      <div class="h-l" style="margin:6px 0">Heading large <code>.h-l</code></div>
+      <div class="h-m">Heading medium <code>.h-m</code></div>
+      <p class="lead" style="margin-top:10px">Lead paragraph <code>.lead</code> for the intro under a title.</p>
+      <p class="mut" style="font-size:var(--fs-s);margin-top:8px">Small muted text <code>.mut</code> at 13px.</p>
+    </div>
+
+    <h2 class="h-m">Buttons, tags, chips</h2>
+    <div class="card demo">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-outline">Outline</button>
+      <button class="btn btn-dark">Dark</button>
+      <button class="btn btn-ghost">Ghost</button>
+      <button class="btn btn-primary btn-sm">Small</button>
+      <button class="btn btn-primary" disabled>Disabled</button>
+    </div>
+    <div class="card demo" style="margin-top:12px">
+      <span class="tag">Live</span><span class="tag amber">Beta</span><span class="tag blue">Info</span><span class="tag"accent": "green",            // green | blue | amber | purple | red | dark">Risk</span><span class="tag purple">New</span><span class="tag grey">Draft</span>
+      <span class="chip on">Selected</span><span class="chip">Option</span>
+    </div>
+
+    <h2 class="h-m">Form</h2>
+    <div class="card card-pad grid c2">
+      <label class="field"><span>Text input</span><input class="inp" placeholder="Type here" /><div class="help">Helper text</div></label>
+      <label class="field"><span>Select</span><select class="inp"><option>Option one</option><option>Option two</option></select></label>
+    </div>
+
+    <h2 class="h-m">Stats and table</h2>
+    <div class="grid c3">
+      <div class="card stat"><div class="k">Organic clicks</div><div class="v num">84.2K</div><div class="d up">+8.1%</div></div>
+      <div class="card stat"><div class="k">Keywords</div><div class="v num">3,420</div><div class="d dn">-2.3%</div></div>
+      <div class="card stat"><div class="k">Pages</div><div class="v num">30</div><div class="d mut">No change</div></div>
+    </div>
+    <div class="card" style="margin-top:18px"><div class="tbl-wrap"><table class="tbl">
+      <thead><tr><th>Keyword</th><th>Position</th><th>Trend</th></tr></thead>
+      <tbody><tr><td>forex broker</td><td class="num">4</td><td class="up">+2</td></tr><tr><td>cfd trading</td><td class="num">11</td><td class="dn">-1</td></tr></tbody>
+    </table></div></div>
+
+    <h2 class="h-m">Helpers</h2>
+    <div class="card demo">
+      <button class="btn btn-outline" id="t">Show toast</button>
+      <span class="icon-tile" id="ic"></span><span class="icon-tile blue" id="ic2"></span><span class="icon-tile amber" id="ic3"></span>
+      <span class="mut" style="font-size:var(--fs-s)"><code>XMTools.toast(msg)</code> · <code>XMTools.icon(name)</code> · <code>XMTools.esc(text)</code></span>
+    </div>
+  </main>
+
+  <script src="../assets/js/shell.js"></script>
+  <script>
+    document.getElementById('t').addEventListener('click', function () { XMTools.toast('This is a toast'); });
+    document.getElementById('ic').innerHTML = XMTools.icon('chart');
+    document.getElementById('ic2').innerHTML = XMTools.icon('globe');
+    document.getElementById('ic3').innerHTML = XMTools.icon('bolt');
+  </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="assets/js/gate.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>XMTrading · Internal AI Tools</title>
+  <link rel="stylesheet" href="assets/css/xm.css" />
+  <link rel="stylesheet" href="assets/css/hub.css" />
+</head>
+<body>
+  <div id="hub-bar" data-home></div>
+
+  <section class="home" aria-label="Tools">
+    <div class="container">
+      <div class="home-head">
+        <div class="eyebrow">Internal AI Tools</div>
+        <h1>One place for every tool the team builds.</h1>
+        <p>Tap an app to open it. Built something? Add it to this screen.</p>
+      </div>
+      <label class="home-search">
+        <span class="sr">Search tools</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <input class="inp" id="q" type="search" placeholder="Search tools" autocomplete="off" />
+      </label>
+      <nav class="apps" id="apps" aria-label="Apps"></nav>
+      <div class="dock" id="dock"></div>
+    </div>
+  </section>
+
+  <main class="container dir" id="dir" aria-labelledby="dir-h">
+    <div class="dir-head"><h2 id="dir-h">About the tools</h2><span id="dir-n"></span></div>
+    <div class="dir-list" id="dir-list"></div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container">Building a tool? Read the <a href="docs/guide.html">guide</a> · Access is private to the XM team.</div>
+  </footer>
+
+  <script src="assets/js/shell.js"></script>
+  <script>
+    (function () {
+      var X = window.XMTools, esc = X.esc;
+      var STATUS = { live: ['Live', ''], beta: ['Beta', 'amber'], prototype: ['Prototype', 'blue'] };
+      var ACCENTS = ['green', 'blue', 'amber', 'purple', 'red', 'dark'];
+      var apps = document.getElementById('apps'), q = document.getElementById('q'), list = document.getElementById('dir-list');
+      var tools = [];
+
+      function accent(t) { return ACCENTS.indexOf(t.accent) > -1 ? t.accent : 'green'; }
+      function appIcon(t) {
+        var badge = t.status === 'beta' ? '<span class="app-badge">Beta</span>' : t.status === 'prototype' ? '<span class="app-badge blue">Prototype</span>' : '';
+        return '<a class="app" href="' + esc(X.url(t.path)) + '" title="' + esc(t.name + ' - ' + t.description) + '">' +
+          '<span class="app-ic ' + accent(t) + '">' + X.icon(t.icon) + badge + '</span><span class="app-name">' + esc(t.name) + '</span></a>';
+      }
+      function row(t) {
+        var s = STATUS[t.status] || STATUS.prototype;
+        var tile = { green: '', blue: 'blue', amber: 'amber', purple: 'purple', red: 'red', dark: '' }[accent(t)];
+        return '<a class="card dir-row" href="' + esc(X.url(t.path)) + '"><span class="icon-tile ' + tile + '">' + X.icon(t.icon) + '</span>' +
+          '<div><h3>' + esc(t.name) + '</h3><p>' + esc(t.description) + '</p></div>' +
+          '<div class="meta"><span class="tag ' + s[1] + '">' + s[0] + '</span><small>' + esc(t.category) + ' · ' + esc(t.owner) + '</small></div></a>';
+      }
+      document.getElementById('dock').innerHTML = '<div class="dock-in">' +
+        '<a class="app" href="docs/guide.html#add"><span class="app-ic ghost">' + X.icon('plus') + '</span><span class="app-name">Add a tool</span></a>' +
+        '<a class="app" href="docs/guide.html"><span class="app-ic dark">' + X.icon('book') + '</span><span class="app-name">Guide</span></a></div>';
+
+      function render() {
+        var term = q.value.trim().toLowerCase();
+        var shown = tools.filter(function (t) { return !term || (t.name + ' ' + t.description + ' ' + t.owner + ' ' + t.category).toLowerCase().indexOf(term) > -1; });
+        apps.innerHTML = shown.length ? shown.map(appIcon).join('') : '<div class="home-empty">No tool matches "' + esc(q.value.trim()) + '".</div>';
+        list.innerHTML = shown.map(row).join('');
+        document.getElementById('dir-n').textContent = shown.length + (shown.length === 1 ? ' tool' : ' tools');
+      }
+      q.addEventListener('input', render);
+
+      fetch('tools.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
+        tools = d.tools || []; render();
+      }).catch(function () {
+        apps.innerHTML = '<div class="home-empty">Could not load tools.json. Run the site through a web server (python3 -m http.server).</div>';
+      });
+    })();
+  </script>
+</body>
+</html>

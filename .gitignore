@@ -1,0 +1,13 @@
+.DS_Store
+.vscode/
+
+# Never commit credentials
+.env
+.env.*
+*.key
+API Key*.txt
+API key*.txt
+*secret*
+
+# Local data exports
+exports/

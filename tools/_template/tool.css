@@ -1,0 +1,2 @@
+/* Tool-specific styles only. Use var(--tokens) from assets/css/xm.css - no hex colours, no text under 12px.
+   Prefix your own classes with the tool name to avoid clashes, e.g. .mytool-chart. */

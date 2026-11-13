@@ -1,0 +1,15 @@
+{
+  "tools": [
+    {
+      "id": "seo-agent",
+      "name": "SEO Agent",
+      "description": "Decision support for xmtrading.com organic search: ranked opportunities with evidence and effort, keywords, competitors, page health and data-source status.",
+      "category": "SEO & Marketing",
+      "status": "beta",
+      "icon": "search",
+      "accent": "green",
+      "owner": "Product team",
+      "path": "tools/seo-agent/"
+    }
+  ]
+}
