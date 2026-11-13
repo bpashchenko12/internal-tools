@@ -61,8 +61,7 @@
           '<div class="meta"><span class="tag ' + s[1] + '">' + s[0] + '</span><small>' + esc(t.category) + ' · ' + esc(t.owner) + '</small></div></a>';
       }
       document.getElementById('dock').innerHTML = '<div class="dock-in">' +
-        '<a class="app" href="docs/guide.html#add"><span class="app-ic ghost">' + X.icon('plus') + '</span><span class="app-name">Add a tool</span></a>' +
-        '<a class="app" href="docs/guide.html"><span class="app-ic dark">' + X.icon('book') + '</span><span class="app-name">Guide</span></a></div>';
+        '<a class="app" href="docs/guide.html#add"><span class="app-ic ghost">' + X.icon('plus') + '</span><span class="app-name">Add a tool</span></a></div>';
 
       function render() {
         var term = q.value.trim().toLowerCase();

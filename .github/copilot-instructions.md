@@ -12,3 +12,4 @@ This repo is a hub of small static tools (plain HTML/CSS/JS, no build step). Fol
 - Use `XMTools` from `assets/js/shell.js` for the logo, icons, top bar and toasts.
 - Never put API keys, tokens or passwords in the repo or in browser code. Collect data server-side and commit only sanitized JSON under `tools/<tool-id>/data/`.
 - Do not load third-party scripts. Escape any dynamic text with `XMTools.esc`.
+- Full details for building a tool are in `docs/agent-brief.md`. Run `python3 scripts/check.py` before finishing.

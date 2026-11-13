@@ -7,6 +7,7 @@ One hub for every internal tool. Plain HTML/CSS/JS, no build step, hosted as a s
 - **Login:** `assets/js/gate.js` asks for one shared password and remembers it on the device.
 - **Tools:** one folder each under `tools/`. Start from `tools/_template/`.
 - **Checks:** `python3 scripts/check.py` validates the rules. It also runs on every pull request.
+- **AI agents:** `docs/agent-brief.md` is a self-contained brief to give a coding agent. It is downloadable from the guide page.
 
 ## Run locally
 
