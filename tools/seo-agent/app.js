@@ -89,12 +89,16 @@
 
     h += '<div class="seo-notice">' + ic('shield') + '<div><b>These are estimates, not sign-ups.</b> Search Console and registration events are not connected yet, so no registration figure is shown. <button class="seo-link" data-go="sources">See Data sources</button></div></div>';
 
+    var sg = signals();
+    if (sg.length) h += '<div class="seo-sec"><div class="seo-sec-h"><div><h2>Three signals worth acting on</h2><p class="seo-sub">Calculated from the data below, not written by hand.</p></div></div><div class="seo-signals">' +
+      sg.map(function (s) { return '<button class="seo-sig" data-go="opportunities/' + s[3] + '"><b class="v">' + esc(s[0]) + '</b><span class="k">' + esc(s[1]) + '</span><span class="d">' + esc(s[2]) + '</span><span class="go">' + s[3] + ' ' + ic('arrow') + '</span></button>'; }).join('') + '</div></div>';
+
     h += '<div class="seo-sec"><div class="seo-sec-h"><div><h2>Do this next</h2><p class="seo-sub">The three highest-scoring opportunities.</p></div>' +
       '<button class="seo-link" data-go="opportunities">All ' + list.length + ' opportunities ' + ic('arrow') + '</button></div><div class="seo-next">' +
       list.slice(0, 3).map(function (o) {
         var s = score(o);
         return '<button class="seo-card-go" data-go="opportunities/' + o.id + '"><span class="top"><span class="seo-score ' + tier(s) + '">' + s + '</span><span><span class="seo-id">' + o.id + '</span><br><span class="tag grey">' + esc(o.type) + '</span></span></span>' +
-          '<h3>' + esc(o.title) + '</h3><p>' + esc(o.summary) + '</p><span class="go">View details ' + ic('arrow') + '</span></button>';
+          '<h3>' + esc(o.title) + '</h3><p>' + esc(o.summary) + '</p><span class="seo-meta">Impact ' + o.impact + '/5 · Effort ' + LEVEL[o.effort] + '</span><span class="go">View details ' + ic('arrow') + '</span></button>';
       }).join('') + '</div></div>';
 
     var mv = SW.movers;
@@ -207,7 +211,7 @@
   }
 
   /* ---------- evidence: competitors ---------- */
-  function viewCompetitors() {
+  function brandLeak() {
     var xm = 0, others = {}, used = [];
     D.watchlist.forEach(function (w) {
       var s = SW.watch[w.keyword];
@@ -216,6 +220,25 @@
       Object.keys(s.competitors || {}).forEach(function (d) { others[d] = (others[d] || 0) + s.competitors[d].clicks; });
     });
     var tot = xm; Object.keys(others).forEach(function (d) { tot += others[d]; });
+    return { xm: xm, others: others, used: used, tot: tot };
+  }
+  function signals() {
+    var bl = brandLeak(), leak = bl.tot ? (bl.tot - bl.xm) / bl.tot * 100 : 0;
+    var camp = SW.pages.filter(function (p) { return /gold-deposit-bonus/.test(p.path); })[0];
+    var gap = 0;
+    D.watchlist.forEach(function (w) {
+      var s = SW.watch[w.keyword];
+      if (w.source === 'Similarweb' && !w.branded && w.scope !== 'review' && s && !s.position && s.volume) gap += s.volume;
+    });
+    var out = [];
+    if (bl.tot) out.push([leak.toFixed(0) + '%', 'of clicks on XM brand searches go to other sites', kfmt(bl.tot - bl.xm) + ' clicks a month, mostly to affiliate sites.', 'OPP-11']);
+    if (camp) out.push([n(camp.keywords), 'keywords where a bonus campaign page is XM\'s top result', 'Many are other companies\' logins and cannot convert.', 'OPP-01']);
+    if (gap) out.push([kfmt(gap), 'monthly searches on tracked topics where XM does not rank', 'Nikkei futures, USD, TradingView and similar.', 'OPP-07']);
+    return out;
+  }
+
+  function viewCompetitors() {
+    var bl = brandLeak(), xm = bl.xm, others = bl.others, used = bl.used, tot = bl.tot;
     var parties = [['XM', xm, true]].concat(Object.keys(others).map(function (d) { return [compName(d), others[d], false]; })).sort(function (a, b) { return b[1] - a[1]; });
     var h = '<div class="card seo-split"><h3>Who gets the clicks on XM brand searches</h3><p class="sub">Across ' + used.length + ' tracked brand searches (' + esc(used.join(', ')) + '), ' + esc(D.meta.period) + '. Estimated clicks.</p><div class="seo-bars">' +
       parties.map(function (p) { return '<div class="seo-barrow"><span' + (p[2] ? ' style="font-weight:600"' : '') + '>' + esc(p[0]) + '</span><span class="seo-meter ' + (p[2] ? '' : 'bad') + '"><i style="width:' + (p[1] / tot * 100).toFixed(1) + '%"></i></span><b>' + (p[1] / tot * 100).toFixed(1) + '%</b></div>'; }).join('') + '</div>' +
