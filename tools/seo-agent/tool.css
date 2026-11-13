@@ -173,8 +173,6 @@
 .seo-hstat .seo-spark { position: absolute; right: 16px; top: 16px; }
 .seo-hstat .seo-spark i { background: rgba(255, 255, 255, .25); }
 .seo-hstat .seo-spark i.cur { background: var(--g-2); }
-.seo-notice { display: flex; gap: 12px; align-items: flex-start; margin-top: 18px; padding: 14px 18px; border-radius: var(--r-m); background: var(--amber-l); color: var(--ink); font-size: var(--fs-s); line-height: 1.55; }
-.seo-notice svg { flex: none; width: 20px; height: 20px; color: var(--amber); margin-top: 1px; }
 .seo-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 8px 4px; }
 .seo-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .seo-mv { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(60px, 1fr) 56px; gap: 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }

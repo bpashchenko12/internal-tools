@@ -67,7 +67,7 @@
     document.getElementById('tabs').innerHTML = VIEWS.map(function (v) {
       return '<button class="seo-tab' + (v[0] === view ? ' on' : '') + '" data-go="' + v[0] + '">' + esc(v[1]) + (v[0] === 'opportunities' ? '<span class="seo-count">' + D.opportunities.length + '</span>' : '') + '</button>';
     }).join('');
-    document.getElementById('ctx').innerHTML = esc(D.meta.market) + ' · <b>' + esc(D.meta.period) + '</b> <span class="tag amber">Estimated, not measured</span>';
+    document.getElementById('ctx').innerHTML = esc(D.meta.market) + ' · <b>' + esc(D.meta.period) + '</b>';
   }
 
   /* ---------- overview ---------- */
@@ -86,8 +86,6 @@
       '<div class="seo-hstat"><div class="k">Top-3 keywords</div><div class="v">' + c.top3 + '</div>' + change(c.top3, p.top3, pl, 'abs') + spark(t3, months()) + '</div>' +
       '<div class="seo-hstat"><div class="k">Opportunities</div><div class="v">' + list.length + '</div><div class="d">' + nowCount + ' to do now</div></div>' +
       '</div></section>';
-
-    h += '<div class="seo-notice">' + ic('shield') + '<div><b>These are estimates, not sign-ups.</b> Search Console and registration events are not connected yet, so no registration figure is shown. <button class="seo-link" data-go="sources">See Data sources</button></div></div>';
 
     var sg = signals();
     if (sg.length) h += '<div class="seo-sec"><div class="seo-sec-h"><div><h2>Three signals worth acting on</h2><p class="seo-sub">Calculated from the data below, not written by hand.</p></div></div><div class="seo-signals">' +
